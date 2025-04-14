@@ -9,9 +9,9 @@ export const NavBar = () => {
       <Link to="/menu" className="navButton">
         Menu
       </Link>
-      <Link to="/bar" className="navButton">
+      {/* <Link to="/bar" className="navButton">
         Bar
-      </Link>
+      </Link> */}
       <Link to="/reserver" className="navButton">
         Réserver
       </Link>
