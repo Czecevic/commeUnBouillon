@@ -1,20 +1,37 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../index.css";
+import { FaHome, FaUtensils, FaCalendarAlt } from "react-icons/fa";
+
 export const NavBar = () => {
   return (
-    <div className="navBar">
-      <Link to="/" className="navButton">
+    <nav className="navBar">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive ? "navButton active" : "navButton"
+        }
+      >
+        <FaHome className="navIcon" />
         Accueil
-      </Link>
-      <Link to="/menu" className="navButton">
+      </NavLink>
+      <NavLink
+        to="/menu"
+        className={({ isActive }) =>
+          isActive ? "navButton active" : "navButton"
+        }
+      >
+        <FaUtensils className="navIcon" />
         Menu
-      </Link>
-      {/* <Link to="/bar" className="navButton">
-        Bar
-      </Link> */}
-      <Link to="/reserver" className="navButton">
+      </NavLink>
+      <NavLink
+        to="/reserver"
+        className={({ isActive }) =>
+          isActive ? "navButton active" : "navButton"
+        }
+      >
+        <FaCalendarAlt className="navIcon" />
         Réserver
-      </Link>
-    </div>
+      </NavLink>
+    </nav>
   );
 };

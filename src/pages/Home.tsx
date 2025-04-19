@@ -4,9 +4,20 @@ import resto from "../assets/le_lieu.jpg";
 export function Home() {
   return (
     <div className="page">
-      <h1 className="titre">Comme un Bouillon</h1>
+      <header className="homeHeader">
+        <h1 className="titre">Comme un Bouillon</h1>
+        <p className="sousTitre">
+          Cuisine française traditionnelle au cœur de Paris
+        </p>
+      </header>
 
-      <img src={resto} className="restoImage" alt="Photo du restaurant" />
+      <div className="imageContainer">
+        <img
+          src={resto}
+          className="restoImage"
+          alt="Photo du restaurant Comme un Bouillon"
+        />
+      </div>
 
       <section className="homeIntro">
         <h2>Bienvenue chez nous 👋</h2>
@@ -35,7 +46,9 @@ export function Home() {
         </p>
       </section>
 
-      <NavBar />
+      <footer>
+        <NavBar />
+      </footer>
     </div>
   );
 }
