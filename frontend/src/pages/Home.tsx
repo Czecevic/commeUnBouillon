@@ -1,5 +1,5 @@
 import { NavBar } from "../components/navbar";
-import resto from "../assets/le_lieu.jpg";
+import resto from "/images/le_lieu.jpg?url";
 
 export function Home() {
   return (
