@@ -1,32 +1,12 @@
-:root {
-  --font-primary: "Arial", sans-serif;
-  --font-secondary: "Roboto", sans-serif;
-
-  --color-primary: #f7e08a;
-  --color-secondary: rgb(144, 130, 80);
-  --color-background: rgb(35, 35, 35);
-  --color-accent: #d9c76a;
-  --color-text: rgba(255, 255, 255, 0.87);
-
-  --spacing-small: 0.5rem;
-  --spacing-medium: 1rem;
-  --spacing-large: 2rem;
-
-  --transition-speed: 0.3s;
-
-  font-family: Arial;
-  line-height: 1.5;
-  font-weight: 900;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: rgb(35, 35, 35);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "./assets/styles/variables.css";
+@import "./assets/styles/global.css";
+@import "./assets/styles/navbar.css";
+@import "./assets/styles/buttons.css";
+@import "./assets/styles/forms.css";
+@import "./assets/styles/home.css";
+@import "./assets/styles/menu.css";
+@import "./assets/styles/popup.css";
+@import "./assets/styles/adminPage.css";
 
 body {
   margin: 0;
@@ -47,70 +27,8 @@ body {
   text-transform: uppercase;
   color: var(--color-primary);
   text-shadow: 4px 4px var(--color-secondary);
-}
-
-.homeIntro {
-  max-width: 800px;
-  text-align: left;
-  padding: 2rem;
-  padding-bottom: 6rem;
-  border-radius: 16px;
-  color: #f7e08a;
-  margin-top: 2rem;
-}
-
-.homeIntro h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.homeIntro p {
-  line-height: 1.7;
-  margin-bottom: 1.25rem;
-}
-
-.navBar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--color-background);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  padding-bottom: env(safe-area-inset-bottom);
-}
-
-.navButton {
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text);
-  font-family: var(--font-primary);
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.navButton:hover {
-  color: var(--color-accent);
-  transform: scale(1.1);
-}
-
-.navButton.active {
-  color: var(--color-primary);
+  font-size: 3rem;
   font-weight: bold;
-}
-
-.navIcon {
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
 }
 
 .buttonReserver {
@@ -151,13 +69,6 @@ body {
 
 .homeHeader {
   margin-bottom: 2rem;
-}
-
-.titre {
-  font-size: 3rem;
-  font-weight: bold;
-  color: var(--color-primary);
-  text-shadow: 2px 2px var(--color-secondary);
 }
 
 .sousTitre {
@@ -204,6 +115,8 @@ body {
 footer {
   margin-top: 2rem;
 }
+
+/* menu */
 
 .section {
   padding: 6rem 2rem;
@@ -489,7 +402,7 @@ footer {
   transform: scale(1.05);
 }
 
-.contactForm {
+.contact-form {
   max-width: 600px;
   margin: 2rem auto;
   padding: 2rem;
@@ -499,23 +412,23 @@ footer {
   font-family: Arial, sans-serif;
 }
 
-.contactForm h2 {
+.contact-form h2 {
   text-align: center;
   font-size: 1.8rem;
   color: #f7e08a;
   margin-bottom: 1.5rem;
 }
 
-.contactForm label {
+.contact-form label {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #f7e08a;
 }
 
-.contactForm input,
-.contactForm select,
-.contactForm textarea {
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
   width: 100%;
   padding: 0.8rem;
   margin-bottom: 1.5rem;
@@ -526,15 +439,15 @@ footer {
   box-sizing: border-box;
 }
 
-.contactForm input:focus,
-.contactForm select:focus,
-.contactForm textarea:focus {
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
   border-color: #f7e08a; /* Couleur d'accentuation */
   outline: none;
   box-shadow: 0 0 4px rgba(255, 251, 0, 0.5);
 }
 
-.contactForm button {
+.contact-form button {
   display: block;
   width: 100%;
   padding: 0.8rem;
@@ -548,24 +461,24 @@ footer {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.contactForm button:hover {
+.contact-form button:hover {
   background-color: #9d8e57;
   color: #fff;
   transform: scale(1.02);
 }
 
-.contactForm button:active {
+.contact-form button:active {
   transform: scale(0.98);
 }
 
-.contactForm p {
+.contact-form p {
   text-align: center;
   font-size: 1rem;
   color: #28a745; /* Couleur pour les messages de succès */
   margin-top: 1rem;
 }
 
-.contactForm p.error {
+.contact-form p.error {
   color: #dc3545; /* Couleur pour les messages d'erreur */
 }
 

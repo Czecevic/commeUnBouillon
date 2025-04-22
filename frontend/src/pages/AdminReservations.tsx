@@ -1,36 +1,38 @@
 import React, { useEffect, useState } from "react";
-
-type Reservation = {
-  id: number;
-  name: string;
-  date: string;
-  time: string;
-  message: string | null;
-  people: number;
-};
+import { Reservation } from "../../interfaces";
 
 export const AdminReservations: React.FC = () => {
   const [reservations, setReservations] = useState<Reservation[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
 
+  // Récupère les réservations depuis le backend
   useEffect(() => {
-    // Récupère les réservations depuis le backend
     const fetchReservations = async () => {
+      setLoading(true);
+      setError(null); // Réinitialise l'erreur avant de récupérer les données
       try {
-        const response = await fetch("http://127.0.0.1:8000/reservations");
+        const response = await fetch("http://127.0.0.1:8000/reservation");
         if (!response.ok) {
           throw new Error("Erreur lors de la récupération des réservations.");
         }
-        const data = await response.json();
+        const data: Reservation[] = await response.json();
         setReservations(data);
-      } catch (err: any) {
-        setError(err.message);
+      } catch (err: unknown) {
+        if (err instanceof Error) {
+          setError(err.message);
+        } else {
+          setError("Une erreur est survenue.");
+        }
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchReservations();
   }, []);
 
+  // Supprime une réservation
   const handleDelete = async (id: number) => {
     if (
       !window.confirm("Êtes-vous sûr de vouloir supprimer cette réservation ?")
@@ -40,7 +42,6 @@ export const AdminReservations: React.FC = () => {
 
     try {
       const response = await fetch(`http://127.0.0.1:8000/reservation/${id}`, {
-        // Correction ici
         method: "DELETE",
       });
 
@@ -52,48 +53,62 @@ export const AdminReservations: React.FC = () => {
       setReservations((prevReservations) =>
         prevReservations.filter((reservation) => reservation.id !== id)
       );
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError("Une erreur est survenue lors de la suppression.");
+      }
     }
   };
 
   return (
     <div className="admin-reservations">
       <h1>Liste des Réservations</h1>
+
+      {/* Affiche un message d'erreur si nécessaire */}
       {error && <p className="error">{error}</p>}
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nom</th>
-            <th>Date</th>
-            <th>Heure</th>
-            <th>Message</th>
-            <th>Nombre de personnes</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {reservations.map((reservation) => (
-            <tr key={reservation.id}>
-              <td>{reservation.id}</td>
-              <td>{reservation.name}</td>
-              <td>{reservation.date}</td>
-              <td>{reservation.time}</td>
-              <td>{reservation.message || "N/A"}</td>
-              <td>{reservation.people}</td>
-              <td>
-                <button
-                  onClick={() => handleDelete(reservation.id)}
-                  style={{ color: "red", cursor: "pointer" }}
-                >
-                  Supprimer
-                </button>
-              </td>
+
+      {/* Affiche un indicateur de chargement */}
+      {loading ? (
+        <p>Chargement des réservations...</p>
+      ) : reservations.length === 0 ? (
+        <p>Aucune réservation trouvée.</p>
+      ) : (
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nom</th>
+              <th>Date</th>
+              <th>Heure</th>
+              <th>Message</th>
+              <th>Nombre de personnes</th>
+              <th>Action</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {reservations.map((reservation) => (
+              <tr key={reservation.id}>
+                <td>{reservation.id}</td>
+                <td>{reservation.name}</td>
+                <td>{reservation.date}</td>
+                <td>{reservation.time}</td>
+                <td>{reservation.message || "N/A"}</td>
+                <td>{reservation.people}</td>
+                <td>
+                  <button
+                    onClick={() => handleDelete(reservation.id)}
+                    className="delete-button"
+                  >
+                    Supprimer
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 };

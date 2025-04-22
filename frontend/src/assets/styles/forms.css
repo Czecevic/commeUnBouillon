@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
+}
+
+form input,
+form textarea,
+form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: var(--color-secondary);
+}

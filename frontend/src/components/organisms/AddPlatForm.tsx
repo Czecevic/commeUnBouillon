@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Plat } from "../data/menuData";
-import "../index.css";
+import { FormField } from "../molecules/FormField";
+import { Button } from "../atoms/Button";
+import { Plat } from "../../data/menuData";
 
 export const AddPlatForm: React.FC<{ onAdd: (plat: Plat) => void }> = ({
   onAdd,
@@ -24,29 +25,43 @@ export const AddPlatForm: React.FC<{ onAdd: (plat: Plat) => void }> = ({
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
+    <form onSubmit={handleSubmit} className="add-plat-form">
+      <FormField
+        id="nom"
+        name="nom"
+        label="Nom"
         type="text"
-        placeholder="Nom"
+        placeholder="Nom du plat"
         value={formData.nom}
         onChange={(e) => setFormData({ ...formData, nom: e.target.value })}
         required
       />
-      <input
+      <FormField
+        id="prix"
+        name="prix"
+        label="Prix"
         type="text"
-        placeholder="Prix"
+        placeholder="Prix du plat"
         value={formData.prix}
         onChange={(e) => setFormData({ ...formData, prix: e.target.value })}
         required
       />
-      <input
+      <FormField
+        id="image"
+        name="image"
+        label="Image"
         type="text"
         placeholder="URL de l'image"
         value={formData.image}
         onChange={(e) => setFormData({ ...formData, image: e.target.value })}
         required
       />
-      <button type="submit">Ajouter</button>
+      <Button
+        label="Ajouter"
+        variant="submit"
+        className="submit-button"
+        onClick={() => {}}
+      />
     </form>
   );
 };

@@ -1,0 +1,16 @@
+:root {
+  --font-primary: "Arial", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+
+  --color-primary: #f7e08a;
+  --color-secondary: rgb(144, 130, 80);
+  --color-background: rgb(35, 35, 35);
+  --color-accent: #d9c76a;
+  --color-text: rgba(255, 255, 255, 0.87);
+
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+
+  --transition-speed: 0.3s;
+}

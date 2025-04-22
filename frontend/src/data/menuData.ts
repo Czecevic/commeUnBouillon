@@ -20,9 +20,11 @@ import caramel from "/images/caramel.webp?url";
 import ileFlo from "/images/ileFlo.webp?url";
 
 export type Plat = {
+  id?: number;
   nom: string;
   prix: string;
   image: string;
+  category?: string;
 };
 
 export const platsEntree: Plat[] = [

@@ -1,4 +1,4 @@
-import { NavBar } from "../components/navbar";
+import { NavBar } from "../components/organisms/NavBar";
 import resto from "/images/le_lieu.jpg?url";
 
 export function Home() {

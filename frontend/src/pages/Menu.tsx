@@ -1,40 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../index.css";
-import { NavBar } from "../components/navbar";
-
-type Plat = {
-  id: number;
-  nom: string;
-  prix: string;
-  image: string;
-  category: string;
-};
-
-type MenuSectionProps = {
-  title: string;
-  plats: Plat[];
-};
-
-const PlatCard: React.FC<Plat> = ({ nom, prix, image }) => (
-  <div className="plat">
-    <img src={`/images/${image}`} alt={nom} className="platImage" />
-    <div className="platText">
-      <h3>{nom}</h3>
-      <p>{prix}</p>
-    </div>
-  </div>
-);
-
-const MenuSection: React.FC<MenuSectionProps> = ({ title, plats }) => (
-  <section className="menu-section">
-    <h2>{title}</h2>
-    <div className="plat-list">
-      {plats.map((plat) => (
-        <PlatCard key={plat.id} {...plat} />
-      ))}
-    </div>
-  </section>
-);
+import { NavBar } from "../components/organisms/NavBar";
+import { Plat } from "../../interfaces";
+import { MenuSection } from "../components/molecules/MenuSection";
 
 export const Menu: React.FC = () => {
   const [platsEntree, setPlatsEntree] = useState<Plat[]>([]);

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../index.css";
+import "../../index.css";
 import { FaHome, FaUtensils, FaCalendarAlt } from "react-icons/fa";
 
 export const NavBar = () => {
