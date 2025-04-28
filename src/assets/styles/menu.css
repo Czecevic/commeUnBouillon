@@ -2,31 +2,125 @@
   margin-bottom: 4rem;
 }
 
+.menu-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .menu-section h2 {
   font-size: 2rem;
   border-bottom: 2px solid var(--color-accent);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
+  color: var(--color-primary);
+  text-align: center;
 }
 
-.plat {
+.menu-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #2c2c2c;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-  transition: transform var(--transition-speed),
-    box-shadow var(--transition-speed);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1.5rem;
+  width: 30%; /* Largeur fixe pour les colonnes */
+  height: 350px; /* Hauteur fixe pour uniformiser les plats */
 }
 
-.plat:hover {
+.menu-item:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
-.platImage {
+.menu-item-image {
   width: 100%;
-  height: 200px;
+  height: 60%; /* L'image occupe 60% de la hauteur de la carte */
   object-fit: cover;
+  border-bottom: 2px solid var(--color-accent);
+  transition: opacity 0.3s ease;
+}
+
+.menu-item-image:hover {
+  opacity: 0.9;
+}
+
+.menu-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light);
+  padding: 1rem;
+  text-align: center;
+  height: 40%; /* Les détails occupent 40% de la hauteur de la carte */
+}
+
+.menu-item-details h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--color-accent);
+  transition: color 0.3s ease;
+}
+
+.menu-item-details h3:hover {
+  color: var(--color-primary);
+}
+
+.menu-item-details p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0;
+  padding-top: 0.5rem;
+  color: var(--color-light);
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .menu-item {
+    width: 45%; /* Deux colonnes pour les tablettes */
+    height: 350px; /* Hauteur fixe maintenue */
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    width: 100%; /* Une seule colonne pour les petits écrans */
+    height: 350px; /* Hauteur fixe maintenue */
+  }
+
+  .menu-section h2 {
+    font-size: 1.8rem; /* Réduction de la taille du titre */
+  }
+
+  .menu-item-details h3 {
+    font-size: 1.3rem; /* Réduction de la taille du nom du plat */
+  }
+
+  .menu-item-details p {
+    font-size: 1rem; /* Réduction de la taille du prix */
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-section h2 {
+    font-size: 1.5rem; /* Réduction supplémentaire pour les très petits écrans */
+  }
+
+  .menu-item-details h3 {
+    font-size: 1.2rem;
+  }
+
+  .menu-item-details p {
+    font-size: 0.9rem;
+  }
 }

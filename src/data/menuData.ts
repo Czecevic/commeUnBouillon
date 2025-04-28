@@ -35,7 +35,7 @@ export const platsEntree: Plat[] = [
   { nom: "Terrine de campagne", prix: "4,20 €", image: terrine },
   { nom: "Saucisson sec", prix: "3,70 €", image: saucisson },
   { nom: "Camembert pané au miel", prix: "4,90 €", image: camembert },
-  { nom: "Oeuf en meurette", prix: "5,90 €", image: meurette },
+  { nom: "Oeuf meurette", prix: "5,90 €", image: meurette },
   { nom: "Soupe à l’oignon", prix: "5,10 €", image: soupe },
 ];
 
