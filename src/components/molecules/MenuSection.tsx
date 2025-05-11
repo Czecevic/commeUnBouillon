@@ -1,20 +1,27 @@
 import React from "react";
-import {
-  platsEntree,
-  platsPrincipal,
-  desserts,
-  Plat,
-} from "../../data/menuData";
+import { useTranslation } from "react-i18next";
 
 interface MenuSectionProps {
-  title: string;
-  plats: Plat[];
+  titleKey: string;
+  category: string;
 }
 
-export const MenuSection: React.FC<MenuSectionProps> = ({ title, plats }) => {
+export const MenuSection: React.FC<MenuSectionProps> = ({
+  titleKey,
+  category,
+}) => {
+  const { t } = useTranslation();
+
+  // Get the menu items from the translation file
+  const plats = t(`menu.${category}`, { returnObjects: true }) as Array<{
+    nom: string;
+    prix: string;
+    image: string;
+  }>;
+
   return (
     <div className="menu-section">
-      <h2>{title}</h2>
+      <h2>{t(titleKey)}</h2>
       <ul>
         {plats.map((plat, index) => (
           <li key={index} className="menu-item">
@@ -26,18 +33,6 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ title, plats }) => {
           </li>
         ))}
       </ul>
-    </div>
-  );
-};
-
-export const MenuSelection: React.FC = () => {
-  return (
-    <div>
-      <h1>Notre Sélection de Plats</h1>
-
-      <MenuSection title="Entrées" plats={platsEntree} />
-      <MenuSection title="Plats Principaux" plats={platsPrincipal} />
-      <MenuSection title="Desserts" plats={desserts} />
     </div>
   );
 };

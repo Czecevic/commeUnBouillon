@@ -1,20 +1,26 @@
 import { NavBar } from "../components/organisms/NavBar";
 import resto from "/images/le_lieu.jpg?url";
+import { LanguageSwitcher } from "../components/molecules/LanguageSwitcher";
 
 export function Home() {
   return (
     <div className="page">
       <header className="homeHeader">
+        <LanguageSwitcher />
         <h1 className="titre">Comme un Bouillon</h1>
         <p className="sousTitre">
           Cuisine française traditionnelle au cœur de Paris
         </p>
+        <p className="adresse">📍 17 Rue de Choiseul, 75002 Paris</p>
       </header>
 
       <div className="imageContainer">
         <img
           src={resto}
           className="restoImage"
+          width="100%"
+          height="auto"
+          loading="lazy"
           alt="Photo du restaurant Comme un Bouillon"
         />
       </div>

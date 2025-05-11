@@ -65,6 +65,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-background);
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .homeHeader {
@@ -144,7 +145,7 @@ footer {
 }
 
 .menu {
-  padding: 4rem 2rem;
+  padding: 0rem 2rem;
   color: #f7e08a;
   min-height: 100vh;
 }
@@ -284,7 +285,7 @@ footer {
 }
 
 .reserver {
-  padding: 0rem 2rem 6rem;
+  padding: 0rem 0rem 6rem;
   color: #f7e08a;
   text-align: center;
 }
@@ -297,9 +298,13 @@ footer {
 }
 
 .infosContact {
-  margin-bottom: 2rem;
   line-height: 1.8;
   font-size: 1.1rem;
+  margin: 0rem 2rem;
+}
+
+.onlineReservation {
+  margin: 0rem 2rem;
 }
 
 .telLink {
@@ -339,6 +344,10 @@ footer {
 }
 .reserver p {
   margin-bottom: 2rem;
+}
+
+.reservationDetails {
+  margin: 0rem 2rem;
 }
 
 .reservationDetails ul {

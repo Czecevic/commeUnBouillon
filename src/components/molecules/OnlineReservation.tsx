@@ -1,17 +1,22 @@
-export const OnlineReservation: React.FC = () => (
-  <div className="onlineReservation">
-    <h2>💻 Réserver en ligne</h2>
-    <p>
-      Vous pouvez également réserver directement via TheFork en cliquant
-      ci-dessous :
-    </p>
-    <a
-      href="https://www.thefork.fr/restaurant/comme-un-bouillon-r742361"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="linkReserver"
-    >
-      Réserver sur TheFork
-    </a>
-  </div>
-);
+import React from "react";
+import { useTranslation } from "react-i18next";
+
+export const OnlineReservation: React.FC = () => {
+  const { t } = useTranslation(); // Hook pour accéder aux traductions
+
+  console.log(t("onlineReservation.title"));
+  return (
+    <div className="onlineReservation">
+      <h2>💻 {t("onlineReservation.title")}</h2>
+      <p>{t("onlineReservation.description")}</p>
+      <a
+        href="https://www.thefork.fr/restaurant/comme-un-bouillon-r742361"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="linkReserver"
+      >
+        {t("onlineReservation.linkText")}
+      </a>
+    </div>
+  );
+};
