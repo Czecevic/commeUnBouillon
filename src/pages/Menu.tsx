@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 export const Menu: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="page">
       <header>
         <LanguageSwitcher />
       </header>

@@ -91,6 +91,22 @@ const resources = {
           "Vous pouvez également réserver directement via TheFork en cliquant ci-dessous :",
         linkText: "Réserver sur TheFork",
       },
+      home: {
+        title: "Comme un Bouillon",
+        subtitle: "Cuisine française traditionnelle au cœur de Paris",
+        address: "📍 17 Rue de Choiseul, 75002 Paris",
+        intro: {
+          welcome: "Bienvenue chez nous 👋",
+          paragraph1:
+            "À deux pas de l’Opéra Garnier, en plein cœur du 2<sup>e</sup> arrondissement de Paris, <strong>Comme un Bouillon</strong> vous accueille dans un cadre chaleureux et authentique.",
+          paragraph2:
+            "Inspiré des célèbres bouillons parisiens, notre restaurant, ouvert depuis <strong>juin 2021</strong>, met à l’honneur la <strong>cuisine française traditionnelle</strong> : des plats généreux, simples et faits maison, à des prix tout doux.",
+          paragraph3:
+            "Chaque matin, nous recevons des <strong>produits frais</strong> pour vous garantir une assiette savoureuse, servie avec rapidité et bonne humeur. Que vous soyez pressé·e pour la pause déjeuner ou que vous cherchiez un repas avant une pièce de théâtre, notre équipe est là pour vous.",
+          paragraph4:
+            "Et parce qu’on aime faire les choses nous-mêmes, même la <strong>décoration</strong> a été pensée et fabriquée maison, pour une ambiance unique et conviviale !",
+        },
+      },
     },
   },
   en: {
@@ -156,6 +172,22 @@ const resources = {
           "You can also book directly via TheFork by clicking below:",
         linkText: "Book on TheFork",
       },
+      home: {
+        title: "Comme un Bouillon",
+        subtitle: "Traditional French cuisine in the heart of Paris",
+        address: "📍 17 Rue de Choiseul, 75002 Paris",
+        intro: {
+          welcome: "Welcome to our place 👋",
+          paragraph1:
+            "Just steps away from the Opéra Garnier, in the heart of Paris' 2nd arrondissement, <strong>Comme un Bouillon</strong> welcomes you in a warm and authentic setting.",
+          paragraph2:
+            "Inspired by the famous Parisian bouillons, our restaurant, open since <strong>June 2021</strong>, highlights <strong>traditional French cuisine</strong>: generous, simple, and homemade dishes at very affordable prices.",
+          paragraph3:
+            "Every morning, we receive <strong>fresh products</strong> to guarantee you a delicious plate, served quickly and with a smile. Whether you're in a hurry for lunch or looking for a meal before a theater show, our team is here for you.",
+          paragraph4:
+            "And because we love doing things ourselves, even the <strong>decor</strong> was designed and handmade, creating a unique and friendly atmosphere!",
+        },
+      },
     },
   },
   es: {
@@ -216,6 +248,22 @@ const resources = {
         description:
           "También puede reservar directamente a través de TheFork haciendo clic a continuación:",
         linkText: "Reservar en TheFork",
+      },
+      home: {
+        title: "Comme un Bouillon",
+        subtitle: "Cocina francesa tradicional en el corazón de París",
+        address: "📍 17 Rue de Choiseul, 75002 París",
+        intro: {
+          welcome: "Bienvenidos a nuestro lugar 👋",
+          paragraph1:
+            "A pocos pasos de la Ópera Garnier, en el corazón del 2º distrito de París, <strong>Comme un Bouillon</strong> les da la bienvenida en un ambiente chaleureux y auténtique.",
+          paragraph2:
+            "Inspirado en los famosos bouillons parisinos, nuestro restaurante, abierto desde <strong>junio de 2021</strong>, destaca la <strong>cocina francesa tradicional</strong>: platos generosos, simples y caseros, a precios muy asequibles.",
+          paragraph3:
+            "Cada mañana recibimos <strong>productos frescos</strong> para garantizarle un plato delicioso, servido rápidamente y con una sonrisa. Ya sea que tenga prisa para el almuerzo o busque una comida antes de una obra de teatro, nuestro equipo está aquí para usted.",
+          paragraph4:
+            "Y porque nos encanta hacer las cosas nosotros mismos, incluso la <strong>decoración</strong> fue diseñada y hecha a mano, creando un ambiente único y acogedor.",
+        },
       },
     },
   },

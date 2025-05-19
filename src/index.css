@@ -285,9 +285,12 @@ footer {
 }
 
 .reserver {
-  padding: 0rem 0rem 6rem;
-  color: #f7e08a;
   text-align: center;
+  padding: 2rem;
+  padding-bottom: 5rem;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  margin-bottom: 35px;
 }
 
 .reserver h1 {
