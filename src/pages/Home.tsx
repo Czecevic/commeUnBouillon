@@ -27,7 +27,8 @@ export function Home() {
       </div>
 
       <section className="homeIntro">
-        <h2>{t("home.intro.welcome")}</h2>
+        <h2>{t("home.intro.welcome1")}</h2>
+        <h2>{t("home.intro.welcome2")}</h2>
         <p dangerouslySetInnerHTML={{ __html: t("home.intro.paragraph1") }} />
         <p dangerouslySetInnerHTML={{ __html: t("home.intro.paragraph2") }} />
         <p dangerouslySetInnerHTML={{ __html: t("home.intro.paragraph3") }} />

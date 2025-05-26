@@ -35,7 +35,7 @@ const resources = {
         title: "ℹ️ Infos importantes sur les réservations",
         items: [
           "Réservation possible <strong>par téléphone</strong> ou <strong>en ligne via TheFork</strong> <em>(service du soir uniquement)</em>.",
-          "Créneaux de réservation : <strong>11h45 à 12h30</strong> et <strong>18h à 19h30</strong>.",
+          "Créneaux de réservation : <br/> <strong>11h45 à 12h30</strong> et <strong>18h à 19h30</strong>.",
           "En dehors de ces horaires, <strong>présentez-vous sans réservation</strong>, nous faisons toujours notre possible pour vous trouver une table.",
           "Capacité maximale de réservation : <strong>8 personnes</strong>, sous réserve des places disponibles.",
           "<strong>Aucune réservation</strong> n’est prise par mail ou sur la messagerie du téléphone.",
@@ -96,7 +96,8 @@ const resources = {
         subtitle: "Cuisine française traditionnelle au cœur de Paris",
         address: "📍 17 Rue de Choiseul, 75002 Paris",
         intro: {
-          welcome: "Bienvenue chez nous 👋",
+          welcome1: "Bienvenue",
+          welcome2: "chez nous 👋",
           paragraph1:
             "À deux pas de l’Opéra Garnier, en plein cœur du 2<sup>e</sup> arrondissement de Paris, <strong>Comme un Bouillon</strong> vous accueille dans un cadre chaleureux et authentique.",
           paragraph2:
@@ -120,7 +121,7 @@ const resources = {
         title: "ℹ️ Important information about reservations",
         items: [
           "Reservations possible <strong>by phone</strong> or <strong>online via TheFork</strong> <em>(evening service only)</em>.",
-          "Reservation slots: <strong>11:45 AM to 12:30 PM</strong> and <strong>6:00 PM to 7:30 PM</strong>.",
+          "Reservation slots: <br/> <strong>11:45 AM to 12:30 PM</strong> and <strong>6:00 PM to 7:30 PM</strong>.",
           "Outside these hours, <strong>walk-ins are welcome</strong>, we always do our best to find you a table.",
           "Maximum reservation capacity: <strong>8 people</strong>, subject to availability.",
           "<strong>No reservations</strong> are taken by email or on the phone's voicemail.",
@@ -201,7 +202,7 @@ const resources = {
         title: "ℹ️ Información importante sobre las reservas",
         items: [
           "Reservas posibles <strong>por teléfono</strong> o <strong>en línea a través de TheFork</strong> <em>(solo para el servicio de la noche)</em>.",
-          "Horarios de reserva: <strong>11:45 a 12:30</strong> y <strong>18:00 a 19:30</strong>.",
+          "Horarios de reserva: <br/> <strong>11:45 a 12:30</strong> y <strong>18:00 a 19:30</strong>.",
           "Fuera de estos horarios, <strong>se aceptan visitas sin reserva</strong>, siempre hacemos lo posible para encontrarle una mesa.",
           "Capacidad máxima de reserva: <strong>8 personas</strong>, sujeto a disponibilidad.",
           "<strong>No se aceptan reservas</strong> por correo electrónico ni en el buzón de voz del teléfono.",

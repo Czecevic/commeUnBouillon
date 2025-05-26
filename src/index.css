@@ -105,7 +105,7 @@ body {
 
 .homeIntro h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 0;
   color: var(--color-primary);
 }
 
@@ -324,6 +324,7 @@ footer {
   font-size: 2rem;
   text-transform: uppercase;
   color: #d9c76a;
+  text-align: center;
 }
 .reserver h2::after {
   content: "";
@@ -347,10 +348,16 @@ footer {
 }
 .reserver p {
   margin-bottom: 2rem;
+  text-align: left;
+}
+
+.infosContact p {
+  text-align: center;
 }
 
 .reservationDetails {
   margin: 0rem 2rem;
+  text-align: left;
 }
 
 .reservationDetails ul {

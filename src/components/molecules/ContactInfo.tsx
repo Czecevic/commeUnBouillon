@@ -26,7 +26,7 @@ export const ContactInfo: React.FC = () => {
       </div>
       <p>
         🕒 <strong>{t("openingHours")}</strong> :<br />
-        {t("mondayToSaturday")} — <span>{t("time")}</span>
+        {t("mondayToSaturday")} <br /> <span>{t("time")}</span>
       </p>
     </div>
   );
