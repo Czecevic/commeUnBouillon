@@ -2,14 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 interface MenuSectionProps {
-  titleKey: string;
   category: string;
 }
 
-export const MenuSection: React.FC<MenuSectionProps> = ({
-  titleKey,
-  category,
-}) => {
+export const MenuSection: React.FC<MenuSectionProps> = ({ category }) => {
   const { t } = useTranslation();
 
   // Get the menu items from the translation file
@@ -21,7 +17,6 @@ export const MenuSection: React.FC<MenuSectionProps> = ({
 
   return (
     <div className="menu-section">
-      <h2>{t(titleKey)}</h2>
       <ul>
         {plats.map((plat, index) => (
           <li key={index} className="menu-item">

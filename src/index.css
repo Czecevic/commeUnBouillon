@@ -581,10 +581,81 @@ tr:hover {
   margin-top: 20px;
 }
 
+.menu-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.menu-buttons button {
+  min-width: 90px;
+  flex: 1 1 90px;
+  padding: 1.7rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #9d8e57;
+  border-bottom: none;
+  background: #181818;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu-buttons button.active {
+  background: #222;
+  color: #f7e08a;
+  border-bottom: 1px solid #222;
+  z-index: 3;
+}
+
+.menu-line {
+  height: 4px;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.menu-line .line-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: #f7e08a;
+  border-radius: 2px 2px 0 0;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 600px) {
+  .menu-buttons {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .menu-buttons button {
+    border-radius: 10px 10px 10px 10px;
+    border-bottom: 1px solid #9d8e57;
+    border-right: none;
+    min-width: unset;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .menu-line {
+    display: none;
+  }
+}
+
 button {
   padding: 5px 10px;
+  background: none;
+  color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
   cursor: pointer;
 }
 
@@ -594,11 +665,6 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
-}
-
-button[style*="red"] {
-  background-color: #ffcccc;
-  color: red;
 }
 
 .admin-reservations table {
