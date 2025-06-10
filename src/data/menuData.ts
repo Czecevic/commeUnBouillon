@@ -1,23 +1,27 @@
-import oeufMayo from "/images/oeuf-mayonnaise.jpg";
-import poireaux from "/images/poireaux.png";
-import terrine from "/images/terrine.avif";
-import poisson from "/images/poisson.avif";
-import saucisson from "/images/saucisson sec.webp?url";
-import camembert from "/images/camembert.webp?url";
-import soupe from "/images/soupe.webp?url";
-import meurette from "/images/meurette.webp?url";
-import tradition from "/images/tradition.avif";
-import bouillon from "/images/bouillon.avif";
-import saucissePlat from "/images/saucisse.avif";
-import saumon from "/images/saumon.webp?url";
-import hampe from "/images/hampe.webp?url";
-import steak from "/images/steak haché.avif";
-import poulet from "/images/poulet.webp?url";
-import carbonade from "/images/carbonade.webp?url";
-import chocolat from "/images/chocolat.webp?url";
-import crumble from "/images/crumble.webp?url";
-import caramel from "/images/caramel.webp?url";
-import ileFlo from "/images/ileFlo.webp?url";
+import oeufMayo from "../assets/images/oeuf_mayo.jpg";
+import poireaux from "../assets/images/poireaux.jpg";
+import terrine from "../assets/images/terrine.jpg";
+import carottes from "../assets/images/carottes.jpg";
+import oeufPoche from "../assets/images/oeuf_poche.jpg";
+import crevette from "../assets/images/crevette.jpg";
+// import poisson from "../assets/images`";
+// import saucisson from "../assets/images/Saucisse.jpg";
+import camembert from "../assets/images/camembert.jpg";
+import soupe from "../assets/images/soupe.jpg";
+import tradition from "../assets/images/tradition.jpg";
+import bouillon from "../assets/images/Bouillon.jpg";
+import saucissePlat from "../assets/images/Saucisse.jpg";
+import saumon from "../assets/images/Saumon.jpg";
+import hampe from "../assets/images/Hampe_bœuf.jpg";
+import steak from "../assets/images/steak.jpg";
+import poulet from "../assets/images/poulet.jpg";
+// import carbonade from "../assets/images/c";
+import chocolat from "../assets/images/choco.jpg";
+// import crumble from "../assets/images";
+import caramel from "../assets/images/crème_brulée.jpg";
+import ileFlo from "../assets/images/ileFlo.jpg";
+import aubergine from "../assets/images/aubergine.jpg";
+import verrine from "../assets/images/verrine.jpg";
 
 export type Plat = {
   id?: number;
@@ -30,13 +34,12 @@ export type Plat = {
 export const platsEntree: Plat[] = [
   { nom: "Oeuf dur mayonnaise", prix: "3,10 €", image: oeufMayo },
   { nom: "Poireaux vinaigrette", prix: "3,60 €", image: poireaux },
-  { nom: "Carottes râpées vinaigrette", prix: "2,90 €", image: poireaux },
-  { nom: "Rillettes de poisson", prix: "4,40 €", image: poisson },
+  { nom: "Carottes râpées vinaigrette", prix: "2,90 €", image: carottes },
   { nom: "Terrine de campagne", prix: "4,20 €", image: terrine },
-  { nom: "Saucisson sec", prix: "3,70 €", image: saucisson },
   { nom: "Camembert pané au miel", prix: "4,90 €", image: camembert },
-  { nom: "Oeuf meurette", prix: "5,90 €", image: meurette },
   { nom: "Soupe à l’oignon", prix: "5,10 €", image: soupe },
+  { nom: "Œuf poché, crème &chorizo", prix: "4,90 €", image: oeufPoche },
+  { nom: "Crevettes mayonnaise", prix: "5,90 €", image: crevette },
 ];
 
 export const platsPrincipal: Plat[] = [
@@ -56,24 +59,37 @@ export const platsPrincipal: Plat[] = [
     prix: "10,90 €",
     image: saucissePlat,
   },
-  { nom: "Hampe de bœuf, sauce bleu, frites", prix: "11,90 €", image: hampe },
+  {
+    nom: "Hampe de bœuf, sauce chimichurri, frites",
+    prix: "11,90 €",
+    image: hampe,
+  },
   { nom: "Sauté de porc aux épices", prix: "12,90 €", image: hampe },
   { nom: "Parmentier de canard, salade", prix: "13,90 €", image: hampe },
-  { nom: "Steak mayo curry, frites", prix: "10,90 €", image: steak },
-  { nom: "Poulet, crème de maïs, purée", prix: "11,90 €", image: poulet },
-  { nom: "Carbonade flamande, frites", prix: "12,90 €", image: carbonade },
   {
-    nom: "Coquillettes et crumble de légumes",
+    nom: "Steak haché, sauce au poivre vert, frites",
+    prix: "10,90 €",
+    image: steak,
+  },
+  {
+    nom: "Suprême de poulet au citron, frites",
     prix: "11,90 €",
-    image: carbonade,
+    image: poulet,
+  },
+  {
+    nom: "Demi aubergine rôtie [sauce tomate, fromage râpé, chimichurri], riz",
+    prix: "11,90 €",
+    image: aubergine,
   },
 ];
 
 export const desserts: Plat[] = [
   { nom: "Pot de crème au chocolat", prix: "3,90 €", image: chocolat },
-  { nom: "Crumble aux pommes", prix: "3,90 €", image: crumble },
   { nom: "Île flottante", prix: "4,30 €", image: ileFlo },
-  { nom: "Crème caramel", prix: "3,90 €", image: caramel },
-  { nom: "Verrine marron/pain d'épices/café", prix: "4,90 €", image: caramel },
-  { nom: "Assiette de Brie de Meaux", prix: "4,10 €", image: caramel },
+  { nom: "Crème brûlée", prix: "3,90 €", image: caramel },
+  {
+    nom: "Verrine à la crème [Fraises fraîches]",
+    prix: "4,90 €",
+    image: verrine,
+  },
 ];

@@ -1,26 +1,31 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
-import oeufMayo from "./assets/images/oeuf-mayonnaise.jpg";
-import poireaux from "./assets/images/poireaux.png";
-import terrine from "./assets/images/terrine.avif";
-import poisson from "./assets/images/poisson.avif";
-import tradition from "./assets/images/tradition.avif";
-import saumon from "./assets/images/saumon.webp?url";
-import chocolat from "./assets/images/chocolat.webp?url";
-import crumble from "./assets/images/crumble.webp?url";
-// import saucisson from "./assets/images/saucisson sec.webp?url";
-// import camembert from "./assets/images/camembert.webp?url";
-// import soupe from "./assets/images/soupe.webp?url";
-// import meurette from "./assets/images/meurette.webp?url";
-// import bouillon from "./assets/images/bouillon.avif";
-// import saucissePlat from "./assets/images/saucisse.avif";
-// import hampe from "./assets/images/hampe.webp?url";
-// import steak from "./assets/images/steak haché.avif";
-// import poulet from "./assets/images/poulet.webp?url";
-// import carbonade from "./assets/images/carbonade.webp?url";
-// import caramel from "./assets/images/caramel.webp?url";
-// import ileFlo from "./assets/images/ileFlo.webp?url";
+import oeufMayo from "/images/oeuf-mayonnaise.jpg";
+import poireaux from "../src/assets/images/poireaux.jpg";
+import terrine from "../src/assets/images/terrine.jpg";
+import carottes from "../src/assets/images/carotte.jpg";
+import oeufPoche from "../src/assets/images/oeuf_poche.jpg";
+import crevette from "../src/assets/images/crevettes.jpg";
+// import poisson from "../src/assets/images`";
+// import saucisson from "../src/assets/images/Saucisse.jpg";
+import camembert from "../src/assets/images/camembert.jpg";
+import soupe from "../src/assets/images/soupe.jpg";
+import tradition from "../src/assets/images/tradition.jpg";
+import bouillon from "../src/assets/images/Bouillon.jpg";
+import saucissePlat from "../src/assets/images/Saucisse.jpg";
+import saumon from "../src/assets/images/Saumon.jpg";
+import hampe from "../src/assets/images/Hampe_bœuf.jpg";
+import steak from "../src/assets/images/steak.jpg";
+import poulet from "../src/assets/images/poulet.jpg";
+import canard from "../src/assets/images/Canard.jpg";
+// import carbonade from "../src/assets/images/c";
+import chocolat from "../src/assets/images/choco.jpg";
+// import crumble from "../src/assets/images";
+import caramel from "../src/assets/images/crème_brulée.jpg";
+import ileFlo from "../src/assets/images/ileFlo.jpg";
+import aubergine from "../src/assets/images/aubergine.jpg";
+import verrine from "../src/assets/images/verrine.jpg";
 
 // Traductions
 const resources = {
@@ -50,19 +55,22 @@ const resources = {
         platsTitle: "Plats Principaux",
         dessertsTitle: "Desserts",
         entrees: [
-          { nom: "Œuf dur mayonnaise", prix: "3,10 €", image: oeufMayo },
-          {
-            nom: "Poireaux vinaigrette",
-            prix: "3,60 €",
-            image: poireaux,
-          },
+          { nom: "Oeuf dur mayonnaise", prix: "3,10 €", image: oeufMayo },
+          { nom: "Poireaux vinaigrette", prix: "3,60 €", image: poireaux },
           {
             nom: "Carottes râpées vinaigrette",
             prix: "2,90 €",
-            image: poireaux,
+            image: carottes,
           },
-          { nom: "Rillettes de poisson", prix: "4,40 €", image: poisson },
-          { nom: "Terrine campagnarde", prix: "4,20 €", image: terrine },
+          { nom: "Terrine de campagne", prix: "4,20 €", image: terrine },
+          { nom: "Camembert pané au miel", prix: "4,90 €", image: camembert },
+          { nom: "Soupe à l’oignon", prix: "5,10 €", image: soupe },
+          {
+            nom: "Œuf poché, crème &chorizo",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          { nom: "Crevettes mayonnaise", prix: "5,90 €", image: crevette },
         ],
         plats: [
           {
@@ -75,14 +83,52 @@ const resources = {
             prix: "11,40 €",
             image: tradition,
           },
+          {
+            nom: "Le Bouillon (tartare + tomme + poivrons)",
+            prix: "11,90 €",
+            image: bouillon,
+          },
+          {
+            nom: "Saucisse au couteau, purée, sauce oignons",
+            prix: "10,90 €",
+            image: saucissePlat,
+          },
+          {
+            nom: "Hampe de bœuf, sauce chimichurri, frites",
+            prix: "11,90 €",
+            image: hampe,
+          },
+          { nom: "Sauté de porc aux épices", prix: "12,90 €", image: hampe },
+          {
+            nom: "Parmentier de canard, salade",
+            prix: "13,90 €",
+            image: canard,
+          },
+          {
+            nom: "Steak haché, sauce au poivre vert, frites",
+            prix: "10,90 €",
+            image: steak,
+          },
+          {
+            nom: "Suprême de poulet au citron, frites",
+            prix: "11,90 €",
+            image: poulet,
+          },
+          {
+            nom: "Demi aubergine rôtie [sauce tomate, fromage râpé, chimichurri], riz",
+            prix: "11,90 €",
+            image: aubergine,
+          },
         ],
         desserts: [
+          { nom: "Pot de crème au chocolat", prix: "3,90 €", image: chocolat },
+          { nom: "Île flottante", prix: "4,30 €", image: ileFlo },
+          { nom: "Crème brûlée", prix: "3,90 €", image: caramel },
           {
-            nom: "Pot de crème au chocolat",
-            prix: "3,90 €",
-            image: chocolat,
+            nom: "Verrine à la crème [Fraises fraîches]",
+            prix: "4,90 €",
+            image: verrine,
           },
-          { nom: "Crumble aux pommes", prix: "3,90 €", image: crumble },
         ],
       },
       onlineReservation: {
@@ -145,10 +191,21 @@ const resources = {
           {
             nom: "Grated carrots with vinaigrette",
             prix: "€2.90",
-            image: poireaux,
+            image: carottes,
           },
-          { nom: "Fish rillettes", prix: "€4.40", image: poisson },
           { nom: "Country-style terrine", prix: "€4.20", image: terrine },
+          {
+            nom: "Breaded camembert with honey",
+            prix: "€4.90",
+            image: camembert,
+          },
+          { nom: "Onion soup", prix: "€5.10", image: soupe },
+          {
+            nom: "Poached egg, cream & chorizo",
+            prix: "€4.90",
+            image: oeufPoche,
+          },
+          { nom: "Shrimp with mayonnaise", prix: "€5.90", image: crevette },
         ],
         plats: [
           {
@@ -161,10 +218,48 @@ const resources = {
             prix: "€11.40",
             image: tradition,
           },
+          {
+            nom: "Le Bouillon (tartare + tomme cheese + peppers)",
+            prix: "€11.90",
+            image: bouillon,
+          },
+          {
+            nom: "Knife-cut sausage, mashed potatoes, onion sauce",
+            prix: "€10.90",
+            image: saucissePlat,
+          },
+          {
+            nom: "Beef skirt steak, chimichurri sauce, fries",
+            prix: "€11.90",
+            image: hampe,
+          },
+          { nom: "Pork sauté with spices", prix: "€12.90", image: hampe },
+          { nom: "Duck parmentier, salad", prix: "€13.90", image: canard },
+          {
+            nom: "Minced steak, green pepper sauce, fries",
+            prix: "€10.90",
+            image: steak,
+          },
+          {
+            nom: "Chicken supreme with lemon, fries",
+            prix: "€11.90",
+            image: poulet,
+          },
+          {
+            nom: "Half roasted eggplant [tomato sauce, grated cheese, chimichurri], rice",
+            prix: "€11.90",
+            image: aubergine,
+          },
         ],
         desserts: [
-          { nom: "Chocolate custard pot", prix: "€3.90", image: chocolat },
-          { nom: "Apple crumble", prix: "€3.90", image: crumble },
+          { nom: "Chocolate cream pot", prix: "€3.90", image: chocolat },
+          { nom: "Floating island", prix: "€4.30", image: ileFlo },
+          { nom: "Crème brûlée", prix: "€3.90", image: caramel },
+          {
+            nom: "Cream verrine [Fresh strawberries]",
+            prix: "€4.90",
+            image: verrine,
+          },
         ],
       },
       onlineReservation: {
@@ -214,7 +309,7 @@ const resources = {
       menu: {
         selectionTitle: "El menú",
         entreesTitle: "Entrantes",
-        platsTitle: "Platos Principales",
+        platsTitle: "Platos principales",
         dessertsTitle: "Postres",
         entrees: [
           { nom: "Huevo duro con mayonesa", prix: "3,10 €", image: oeufMayo },
@@ -222,10 +317,21 @@ const resources = {
           {
             nom: "Zanahorias ralladas con vinagreta",
             prix: "2,90 €",
-            image: poireaux,
+            image: carottes,
           },
-          { nom: "Rillettes de pescado", prix: "4,40 €", image: poisson },
           { nom: "Terrina campestre", prix: "4,20 €", image: terrine },
+          {
+            nom: "Camembert empanado con miel",
+            prix: "4,90 €",
+            image: camembert,
+          },
+          { nom: "Sopa de cebolla", prix: "5,10 €", image: soupe },
+          {
+            nom: "Huevo escalfado, crema y chorizo",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          { nom: "Gambas con mayonesa", prix: "5,90 €", image: crevette },
         ],
         plats: [
           {
@@ -238,10 +344,56 @@ const resources = {
             prix: "11,40 €",
             image: tradition,
           },
+          {
+            nom: "Le Bouillon (tártaro + queso tomme + pimientos)",
+            prix: "11,90 €",
+            image: bouillon,
+          },
+          {
+            nom: "Salchicha cortada a cuchillo, puré, salsa de cebolla",
+            prix: "10,90 €",
+            image: saucissePlat,
+          },
+          {
+            nom: "Entraña de ternera, salsa chimichurri, patatas fritas",
+            prix: "11,90 €",
+            image: hampe,
+          },
+          {
+            nom: "Salteado de cerdo con especias",
+            prix: "12,90 €",
+            image: hampe,
+          },
+          {
+            nom: "Parmentier de pato, ensalada",
+            prix: "13,90 €",
+            image: canard,
+          },
+          {
+            nom: "Hamburguesa de ternera, salsa de pimienta verde, patatas fritas",
+            prix: "10,90 €",
+            image: steak,
+          },
+          {
+            nom: "Suprema de pollo al limón, patatas fritas",
+            prix: "11,90 €",
+            image: poulet,
+          },
+          {
+            nom: "Media berenjena asada [salsa de tomate, queso rallado, chimichurri], arroz",
+            prix: "11,90 €",
+            image: aubergine,
+          },
         ],
         desserts: [
           { nom: "Crema de chocolate", prix: "3,90 €", image: chocolat },
-          { nom: "Crumble de manzana", prix: "3,90 €", image: crumble },
+          { nom: "Isla flotante", prix: "4,30 €", image: ileFlo },
+          { nom: "Crème brûlée", prix: "3,90 €", image: caramel },
+          {
+            nom: "Vasito de crema [Fresas frescas]",
+            prix: "4,90 €",
+            image: verrine,
+          },
         ],
       },
       onlineReservation: {
