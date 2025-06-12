@@ -9,9 +9,9 @@ export const Reserver: React.FC = () => {
   return (
     <div className="reserver">
       <LanguageSwitcher />
+      <OnlineReservation />
       <ReservationDetails />
       <ContactInfo />
-      <OnlineReservation />
       <NavBar />
     </div>
   );

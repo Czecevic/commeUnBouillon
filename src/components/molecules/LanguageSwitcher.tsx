@@ -4,15 +4,16 @@ import { useTranslation } from "react-i18next";
 export const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
 
-  const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng);
-  };
-
   return (
-    <div className="languageSwitcher">
-      <button onClick={() => changeLanguage("fr")}>🇫🇷</button>
-      <button onClick={() => changeLanguage("en")}>🇬🇧</button>
-      <button onClick={() => changeLanguage("es")}>🇪🇸</button>
-    </div>
+    <select
+      value={i18n.language}
+      onChange={(e) => i18n.changeLanguage(e.target.value)}
+      className="language-select"
+      aria-label="Select language"
+    >
+      <option value="fr">🇫🇷</option>
+      <option value="en">🇬🇧</option>
+      <option value="es">🇪🇸</option>
+    </select>
   );
 };

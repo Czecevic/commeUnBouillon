@@ -3,6 +3,7 @@ import { Plat } from "../../../interfaces";
 export const PlatCard: React.FC<Plat> = ({ nom, prix, image }) => (
   <div className="plat">
     <img
+      loading="lazy"
       src={
         image.startsWith("http")
           ? image

@@ -20,7 +20,12 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ category }) => {
       <ul>
         {plats.map((plat, index) => (
           <li key={index} className="menu-item">
-            <img src={plat.image} alt={plat.nom} className="menu-item-image" />
+            <img
+              loading="lazy"
+              src={plat.image}
+              alt={plat.nom}
+              className="menu-item-image"
+            />
             <div className="menu-item-details">
               <h3>{plat.nom}</h3>
               <p>{plat.prix}</p>
