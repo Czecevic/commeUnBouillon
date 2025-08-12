@@ -286,7 +286,7 @@ footer {
 
 .reserver {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   padding-bottom: 5rem;
   color: var(--color-text);
   background-color: var(--color-background);
@@ -348,7 +348,6 @@ footer {
 }
 .reserver p {
   margin-bottom: 2rem;
-  text-align: left;
 }
 
 .infosContact p {
@@ -636,10 +635,12 @@ tr:hover {
   .menu-buttons button {
     border-radius: 10px 10px 10px 10px;
     border-bottom: 1px solid #9d8e57;
-    border-right: none;
     min-width: unset;
     width: 100%;
     font-size: 1rem;
+  }
+  .menu-buttons button.active {
+    border: 1px solid #858742;
   }
   .menu-line {
     display: none;
@@ -749,6 +750,19 @@ form button:hover {
 
 .plat-item button:hover {
   background-color: #c82333;
+}
+
+.onlineReservation {
+  text-align: center;
+}
+.linkReserver {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 1.5rem auto 0 auto;
+  font-size: 1.2rem;
+  padding: 1.2rem 0;
+  box-sizing: border-box;
 }
 
 /* Rendre le tableau responsive */
@@ -918,6 +932,7 @@ body.popup-open {
   position: fixed;
   top: 0;
   right: 0;
+  font-size: large;
   margin: 0.5rem;
   padding: 0.4rem 1rem;
   border-radius: 8px;
@@ -925,4 +940,7 @@ body.popup-open {
   background: #181818;
   color: #fff;
   font-weight: bold;
+}
+.language-select option {
+  font-size: large;
 }

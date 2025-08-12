@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 export const OnlineReservation: React.FC = () => {
   const { t } = useTranslation(); // Hook pour accéder aux traductions
 
-  console.log(t("onlineReservation.title"));
   return (
     <div className="onlineReservation">
       <h2>💻 {t("onlineReservation.title")}</h2>
