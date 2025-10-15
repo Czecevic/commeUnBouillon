@@ -52,11 +52,13 @@ body {
 .buttonReserver {
   transition: border-color var(--transition-speed) ease,
     transform var(--transition-speed) ease;
+  cursor: pointer;
 }
 
 .navBar .navButton:hover {
   border-color: var(--color-accent);
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 /* Styles pour la page Home */
@@ -782,6 +784,7 @@ form button:hover {
   .navBar .navButton {
     font-size: 0.8rem;
     padding: var(--spacing-small);
+    cursor: pointer;
   }
 
   .menu h1 {
@@ -818,6 +821,7 @@ form button:hover {
 
   .navBar .navButton {
     font-size: 10px;
+    cursor: pointer;
   }
 
   .menu h1 {

@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/commeUnBouillon/', // ← Important !
+  base: '/', // ← Important !
   build: {
     outDir: "build", // ok si tu veux utiliser 'build' avec gh-pages
   },

@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="commeUnBouillon">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />

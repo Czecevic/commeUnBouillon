@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Czecevic.github.io/mon-site-react",
   "name": "bouillon",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
     "i18next": "^25.0.2",
     "i18next-browser-languagedetector": "^8.1.0",
     "react": "^19.0.0",

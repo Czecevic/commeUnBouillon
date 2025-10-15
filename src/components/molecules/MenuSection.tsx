@@ -14,6 +14,7 @@ export const MenuSection: React.FC<MenuSectionProps> = ({ category }) => {
     prix: string;
     image: string;
   }>;
+  console.log(plats)
 
   return (
     <div className="menu-section">
