@@ -3,31 +3,33 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 // Harmonisation des imports d'images
-import oeufMayo from "../src/assets/images/oeuf_mayo.jpg";
-import poireaux from "../src/assets/images/poireaux.jpg";
-import terrine from "../src/assets/images/terrine.jpg";
-import carottes from "../src/assets/images/carotte.jpg";
-import oeufPoche from "../src/assets/images/oeuf_poche.jpg";
-import fromage from "../src/assets/images/fromage.webp";
-import tommeDeSavoie from "../src/assets/images/Tomme-de-Savoie.jpg";
-import camembert from "../src/assets/images/camembert.jpg";
-import soupe from "../src/assets/images/soupe.jpg";
-import tradition from "../src/assets/images/tradition.jpg";
-import bouillon from "../src/assets/images/Bouillon.jpg";
-import saucissePlat from "../src/assets/images/Saucisse.jpg";
-import saumon from "../src/assets/images/Saumon.jpg";
-import hampe from "../src/assets/images/Hampe_bœuf.jpg";
-import steak from "../src/assets/images/steak.jpg";
-import poulet from "../src/assets/images/poulet.jpg";
-import carbonade from "../src/assets/images/carbonade.jpg";
-import chocolat from "../src/assets/images/choco.jpg";
-import caramel from "../src/assets/images/crème_brulée.jpg";
-import ileFlo from "../src/assets/images/ileFlo.jpg";
-import aubergine from "../src/assets/images/aubergine.jpg";
-import verrine from "../src/assets/images/verrine.jpg";
-import rilletteDeSaumon from "../src/assets/images/rillettesDeSaumon.jpg";
-import SaucissonSecMaison from "../src/assets/images/Saucisson-sec-maison.jpg";
-import mousseFoieVolaille from "../src/assets/images/mousse-foie-volaille.jpg";
+import oeufMayo from "./assets/img/oeufMayo.jpeg";
+import poireaux from "./assets/img/poireau.jpeg";
+import terrine from "./assets/img/terrine.jpeg";
+import carottes from "./assets/img/carotte.jpeg";
+import oeufPoche from "./assets/img/oeufPoche.jpeg";
+import chorizo from "./assets/img/chorizo.jpeg";
+import fromage from "./assets/img/brieFromage.jpeg";
+import tommeDeSavoie from "./assets/img/tomDeSavoie.jpeg";
+import camembert from "./assets/img/camembert.jpeg";
+import soupe from "./assets/img/soupe_a_loignon.jpeg";
+import tradition from "./assets/img/tradition.jpeg";
+import bouillon from "./assets/img/bouillon.jpeg";
+import saucissePlat from "./assets/img/saucisse.jpeg";
+import saumon from "./assets/img/poisson.jpeg";
+import hampe from "./assets/img/hampe.jpeg";
+import steak from "./assets/img/steakFrites.jpeg";
+import poulet from "./assets/img/poulet.jpeg";
+import carbonade from "./assets/img/carbonade.jpeg";
+import chocolat from "./assets/img/chocolat.jpeg";
+import caramel from "./assets/img/caramel.jpeg";
+import ileFlo from "./assets/img/ileFlo.jpeg";
+import aubergine from "./assets/img/aubergine.jpeg";
+import verrine from "./assets/img/verrine.jpeg";
+import rilletteDeSaumon from "./assets/img/saumon.jpeg";
+import SaucissonSecMaison from "./assets/img/saucisson_sec.jpeg";
+import mousseFoieVolaille from "./assets/img/mousseFoieVolaille.jpeg";
+
 
 
 // Traductions
@@ -64,7 +66,7 @@ const resources = {
           { nom: "Rillettes de saumon", prix: "4,60 €", image: rilletteDeSaumon },
           { nom: "Terrine de campagne", prix: "4,20 €", image: terrine },
           { nom: "Saucisson sec", prix: "4,20 €", image: SaucissonSecMaison },
-          // { nom: "Chorizo grillé", prix: "3,90 €", image: SaucissonSecMaison },
+          { nom: "Chorizo grillé", prix: "3,90 €", image: chorizo },
           { nom: "Quart de camembert pané au miel", prix: "4,90 €", image: camembert },
           { nom: "Œuf poché, crème de Maroilles AOP", prix: "4,90 €", image: oeufPoche },
           { nom: "Mousse de foie de volaille", prix: "4,10 €", image: mousseFoieVolaille },
@@ -112,7 +114,7 @@ const resources = {
             image: poulet,
           },
           {
-            nom: "Demi aubergine rôtie [sauce tomate, fromage râpé, chimichurri], riz",
+            nom: "Demi aubergine rôtie [sauce tomate, fromage râpé], riz",
             prix: "11,90 €",
             image: aubergine,
           },
@@ -212,7 +214,7 @@ const resources = {
           { nom: "Minced steak, green pepper sauce, fries", prix: "€10.90", image: steak },
           { nom: "Chicken supreme with tarragon, mustard sauce, mashed potatoes", prix: "€12.90", image: carbonade },
           { nom: "Flemish carbonnade, fries", prix: "€12.90", image: poulet },
-          { nom: "Half roasted eggplant [tomato sauce, grated cheese, chimichurri], rice", prix: "€11.90", image: aubergine },
+          { nom: "Half roasted eggplant [tomato sauce, grated cheese], rice", prix: "€11.90", image: aubergine },
         ],
         desserts: [
           { nom: "Chocolate cream pot", prix: "€3.90", image: chocolat },
@@ -296,7 +298,7 @@ const resources = {
           { nom: "Hamburguesa de ternera, salsa de pimienta verde, patatas fritas", prix: "10,90 €", image: steak },
           { nom: "Suprema de pollo al estragón, salsa de mostaza, puré", prix: "12,90 €", image: carbonade },
           { nom: "Carbonada flamenca, patatas fritas", prix: "12,90 €", image: poulet },
-          { nom: "Media berenjena asada [salsa de tomate, queso rallado, chimichurri], arroz", prix: "11,90 €", image: aubergine },
+          { nom: "Media berenjena asada [salsa de tomate, queso rallado], arroz", prix: "11,90 €", image: aubergine },
         ],
         desserts: [
           { nom: "Crema de chocolate", prix: "3,90 €", image: chocolat },

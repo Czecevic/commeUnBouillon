@@ -63,7 +63,8 @@
   color: var(--color-light);
   padding: 1rem;
   text-align: center;
-  height: 40%; /* Les détails occupent 40% de la hauteur de la carte */
+  height: 40%;
+  padding: 5px;
 }
 
 .menu-item-details h3 {

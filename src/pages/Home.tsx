@@ -1,5 +1,5 @@
 import { NavBar } from "../components/organisms/NavBar";
-import resto from "/images/le_lieu.jpg?url";
+import resto from "/imgPublic/le_lieu.jpg";
 import { LanguageSwitcher } from "../components/molecules/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
