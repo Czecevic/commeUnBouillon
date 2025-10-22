@@ -95,7 +95,7 @@ const resources = {
         ],
         plats: [
           {
-            nom: "Escalope de saumon, crème au chorizo, riz",
+            nom: "Saumon, crème au chorizo, riz",
             prix: "13,40 €",
             image: saumon,
           },
@@ -119,9 +119,7 @@ const resources = {
             prix: "11,90 €",
             image: hampe,
           },
-          // a changer
-          { nom: "blanquette de veau, riz", prix: "14,10 €", image: veau },
-          // a changer
+          { nom: "Blanquette de veau, riz", prix: "14,10 €", image: veau },
           {
             nom: "Andouillette pur porc, sauce moutarde, frites",
             prix: "11,90 €",
@@ -254,7 +252,7 @@ const resources = {
         ],
         plats: [
           {
-            nom: "Salmon escalope, chorizo cream, rice",
+            nom: "Salmon, chorizo cream, rice",
             prix: "€13,40",
             image: saumon,
           },
@@ -402,7 +400,7 @@ const resources = {
         ],
         plats: [
           {
-            nom: "Escalope de salmón, crema de chorizo, arroz",
+            nom: "Salmón, crema de chorizo, arroz",
             prix: "13,40 €",
             image: saumon,
           },
