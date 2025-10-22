@@ -31,6 +31,7 @@ import SaucissonSecMaison from "./assets/img/saucisson_sec.jpeg";
 import rilletteDeSaumon from "./assets/img/mousseFoieVolaille.jpeg";
 import andouillette from "./assets/img/andouille.jpeg";
 import crumble from "./assets/img/crumble.jpeg";
+import veau from "./assets/img/veau.jpeg";
 
 // Traductions
 const resources = {
@@ -119,7 +120,7 @@ const resources = {
             image: hampe,
           },
           // a changer
-          { nom: "blanquette de veau, riz", prix: "14,10 €", image: hampe },
+          { nom: "blanquette de veau, riz", prix: "14,10 €", image: veau },
           // a changer
           {
             nom: "Andouillette pur porc, sauce moutarde, frites",
@@ -277,7 +278,7 @@ const resources = {
             prix: "€11,90",
             image: hampe,
           },
-          { nom: "Veal blanquette, rice", prix: "€14,10", image: hampe },
+          { nom: "Veal blanquette, rice", prix: "€14,10", image: veau },
           {
             nom: "Pure pork andouillette, mustard sauce, fries",
             prix: "€11,90",
@@ -425,7 +426,7 @@ const resources = {
             prix: "11,90 €",
             image: hampe,
           },
-          { nom: "Blanqueta de ternera, arroz", prix: "14,10 €", image: hampe },
+          { nom: "Blanqueta de ternera, arroz", prix: "14,10 €", image: veau },
           {
             nom: "Andouillette de cerdo puro, salsa de mostaza, patatas fritas",
             prix: "11,90 €",
