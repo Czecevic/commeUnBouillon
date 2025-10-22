@@ -26,11 +26,11 @@ import caramel from "./assets/img/caramel.jpeg";
 import ileFlo from "./assets/img/ileFlo.jpeg";
 import aubergine from "./assets/img/aubergine.jpeg";
 import verrine from "./assets/img/verrine.jpeg";
-import rilletteDeSaumon from "./assets/img/saumon.jpeg";
+import mousseFoieVolaille from "./assets/img/saumon.jpeg";
 import SaucissonSecMaison from "./assets/img/saucisson_sec.jpeg";
-import mousseFoieVolaille from "./assets/img/mousseFoieVolaille.jpeg";
-
-
+import rilletteDeSaumon from "./assets/img/mousseFoieVolaille.jpeg";
+import andouillette from "./assets/img/andouille.jpeg";
+import crumble from "./assets/img/crumble.jpeg";
 
 // Traductions
 const resources = {
@@ -62,25 +62,49 @@ const resources = {
         entrees: [
           { nom: "Oeuf dur mayonnaise", prix: "3,10 €", image: oeufMayo },
           { nom: "Poireaux vinaigrette", prix: "3,60 €", image: poireaux },
-          { nom: "Carottes râpées vinaigrette", prix: "2,90 €", image: carottes },
-          { nom: "Rillettes de saumon", prix: "4,60 €", image: rilletteDeSaumon },
-          { nom: "Terrine de campagne", prix: "4,20 €", image: terrine },
-          { nom: "Saucisson sec", prix: "4,20 €", image: SaucissonSecMaison },
+          {
+            nom: "Carottes râpées vinaigrette",
+            prix: "2,90 €",
+            image: carottes,
+          },
+          {
+            nom: "Rillettes de saumon",
+            prix: "4,60 €",
+            image: rilletteDeSaumon,
+          },
+          { nom: "Terrine de campagne", prix: "4,30 €", image: terrine },
+          { nom: "Saucisson sec", prix: "3,60 €", image: SaucissonSecMaison },
           { nom: "Chorizo grillé", prix: "3,90 €", image: chorizo },
-          { nom: "Quart de camembert pané au miel", prix: "4,90 €", image: camembert },
-          { nom: "Œuf poché, crème de Maroilles AOP", prix: "4,90 €", image: oeufPoche },
-          { nom: "Mousse de foie de volaille", prix: "4,10 €", image: mousseFoieVolaille },
+          {
+            nom: "Quart de camembert pané au miel",
+            prix: "4,90 €",
+            image: camembert,
+          },
+          {
+            nom: "Œuf poché, crème de Maroilles AOP",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          {
+            nom: "Mousse de foie de volaille",
+            prix: "4,10 €",
+            image: mousseFoieVolaille,
+          },
           { nom: "Soupe à l’oignon", prix: "5,10 €", image: soupe },
         ],
         plats: [
-          { nom: "Escalope de saumon, crème au chorizo, riz", prix: "13,40 €", image: saumon },
           {
-            nom: "Le tradition (tartare), frites & salade",
+            nom: "Escalope de saumon, crème au chorizo, riz",
+            prix: "13,40 €",
+            image: saumon,
+          },
+          {
+            nom: "Le tradition (boeuf haché cru préparé), frites & salade",
             prix: "11,60 €",
             image: tradition,
           },
           {
-            nom: "Le Bouillon (tartare + tomme + poivrons)",
+            nom: "Le Bouillon (boeuf haché cru préparé + tomme + poivrons)",
             prix: "12,10 €",
             image: bouillon,
           },
@@ -90,14 +114,18 @@ const resources = {
             image: saucissePlat,
           },
           {
-            nom: "Hampe de bœuf, sauce blue d'Auvergne AOP, frites",
+            nom: "Hampe de bœuf, sauce bleue d'Auvergne AOP, frites",
             prix: "11,90 €",
             image: hampe,
           },
           // a changer
           { nom: "blanquette de veau, riz", prix: "14,10 €", image: hampe },
           // a changer
-          { nom: "Andouillette pur porc, sauce moutarde, frites", prix: "11,90 €", image: hampe },
+          {
+            nom: "Andouillette pur porc, sauce moutarde, frites",
+            prix: "11,90 €",
+            image: andouillette,
+          },
           {
             nom: "Steak haché, sauce au poivre vert, frites",
             prix: "10,90 €",
@@ -105,13 +133,13 @@ const resources = {
           },
           {
             nom: "Suprême de poulet à l'estragon, sauce moutarde, purée",
-            prix: "12,90 €",
-            image: carbonade,
+            prix: "11,90 €",
+            image: poulet,
           },
           {
             nom: "Carbonade flamande, frites",
             prix: "12,90 €",
-            image: poulet,
+            image: carbonade,
           },
           {
             nom: "Demi aubergine rôtie [sauce tomate, fromage râpé], riz",
@@ -121,7 +149,7 @@ const resources = {
         ],
         desserts: [
           { nom: "Pot de crème au chocolat", prix: "3,90 €", image: chocolat },
-          { nom: "Crumble aux pommes", prix: "3,90 €", image: chocolat },
+          { nom: "Crumble aux pommes", prix: "3,90 €", image: crumble },
           { nom: "Île flottante", prix: "4,30 €", image: ileFlo },
           { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
           {
@@ -192,38 +220,102 @@ const resources = {
         platsTitle: "Main Courses",
         dessertsTitle: "Desserts",
         entrees: [
-          { nom: "Hard-boiled egg with mayonnaise", prix: "€3.10", image: oeufMayo },
-          { nom: "Leeks with vinaigrette", prix: "€3.60", image: poireaux },
-          { nom: "Grated carrots with vinaigrette", prix: "€2.90", image: carottes },
-          { nom: "Salmon rillettes", prix: "€4.60", image: rilletteDeSaumon },
-          { nom: "Country-style terrine", prix: "€4.20", image: terrine },
-          { nom: "Dry sausage", prix: "€4.20", image: SaucissonSecMaison },
-          { nom: "Breaded camembert with honey", prix: "€4.90", image: camembert },
-          { nom: "Poached egg, Maroilles AOP cream", prix: "€4.90", image: oeufPoche },
-          { nom: "Chicken liver mousse", prix: "€4.10", image: mousseFoieVolaille },
-          { nom: "Onion soup", prix: "€5.10", image: soupe },
+          {
+            nom: "Hard-boiled egg with mayonnaise",
+            prix: "€3.10",
+            image: oeufMayo,
+          },
+          { nom: "Leeks with vinaigrette", prix: "€3,60", image: poireaux },
+          {
+            nom: "Grated carrots with vinaigrette",
+            prix: "€2,90",
+            image: carottes,
+          },
+          { nom: "Salmon rillettes", prix: "€4,60", image: rilletteDeSaumon },
+          { nom: "Country-style terrine", prix: "€4,30", image: terrine },
+          { nom: "Dry sausage", prix: "€3,60", image: SaucissonSecMaison },
+          {
+            nom: "Breaded camembert with honey",
+            prix: "€4,90",
+            image: camembert,
+          },
+          {
+            nom: "Poached egg, Maroilles AOP cream",
+            prix: "€4,90",
+            image: oeufPoche,
+          },
+          {
+            nom: "Chicken liver mousse",
+            prix: "€4,10",
+            image: mousseFoieVolaille,
+          },
+          { nom: "Onion soup", prix: "€5,10", image: soupe },
         ],
         plats: [
-          { nom: "Salmon escalope, chorizo cream, rice", prix: "€13.40", image: saumon },
-          { nom: "The Tradition (tartare), fries & salad", prix: "€11.60", image: tradition },
-          { nom: "Le Bouillon (tartare + tomme + peppers)", prix: "€12.10", image: bouillon },
-          { nom: "Knife-cut sausage, Maroilles AOP sauce, mashed potatoes", prix: "€10.90", image: saucissePlat },
-          { nom: "Beef skirt steak, blue cheese sauce, fries", prix: "€11.90", image: hampe },
-          { nom: "Veal blanquette, rice", prix: "€14.10", image: hampe },
-          { nom: "Pure pork andouillette, mustard sauce, fries", prix: "€11.90", image: hampe },
-          { nom: "Minced steak, green pepper sauce, fries", prix: "€10.90", image: steak },
-          { nom: "Chicken supreme with tarragon, mustard sauce, mashed potatoes", prix: "€12.90", image: carbonade },
-          { nom: "Flemish carbonnade, fries", prix: "€12.90", image: poulet },
-          { nom: "Half roasted eggplant [tomato sauce, grated cheese], rice", prix: "€11.90", image: aubergine },
+          {
+            nom: "Salmon escalope, chorizo cream, rice",
+            prix: "€13,40",
+            image: saumon,
+          },
+          {
+            nom: "The Tradition (raw ground beef), fries & salad",
+            prix: "€11,60",
+            image: tradition,
+          },
+          {
+            nom: "Le Bouillon (raw ground beef + tomme + peppers)",
+            prix: "€12,10",
+            image: bouillon,
+          },
+          {
+            nom: "Knife-cut sausage, Maroilles AOP sauce, mashed potatoes",
+            prix: "€10,90",
+            image: saucissePlat,
+          },
+          {
+            nom: "Beef skirt steak, blue cheese sauce, fries",
+            prix: "€11,90",
+            image: hampe,
+          },
+          { nom: "Veal blanquette, rice", prix: "€14,10", image: hampe },
+          {
+            nom: "Pure pork andouillette, mustard sauce, fries",
+            prix: "€11,90",
+            image: andouillette,
+          },
+          {
+            nom: "Minced steak, green pepper sauce, fries",
+            prix: "€10,90",
+            image: steak,
+          },
+          {
+            nom: "Chicken supreme with tarragon, mustard sauce, mashed potatoes",
+            prix: "€11,90",
+            image: poulet,
+          },
+          {
+            nom: "Flemish carbonnade, fries",
+            prix: "€12,90",
+            image: carbonade,
+          },
+          {
+            nom: "Half roasted eggplant [tomato sauce, grated cheese], rice",
+            prix: "€11,90",
+            image: aubergine,
+          },
         ],
         desserts: [
-          { nom: "Chocolate cream pot", prix: "€3.90", image: chocolat },
-          { nom: "Apple crumble", prix: "€3.90", image: chocolat },
-          { nom: "Floating island", prix: "€4.30", image: ileFlo },
-          { nom: "Crème brûlée", prix: "€4.10", image: caramel },
-          { nom: "Chestnut verrine, gingerbread, coffee", prix: "€4.90", image: verrine },
-          { nom: "AOP Brie de Meaux", prix: "€4.10", image: fromage },
-          { nom: "IGP Tomme de Savoie", prix: "€3.90", image: tommeDeSavoie },
+          { nom: "Chocolate cream pot", prix: "€3,90", image: chocolat },
+          { nom: "Apple crumble", prix: "€3,90", image: crumble },
+          { nom: "Floating island", prix: "€4,30", image: ileFlo },
+          { nom: "Crème brûlée", prix: "€4,10", image: caramel },
+          {
+            nom: "Chestnut verrine, gingerbread, coffee",
+            prix: "€4,90",
+            image: verrine,
+          },
+          { nom: "AOP Brie de Meaux", prix: "€4,10", image: fromage },
+          { nom: "IGP Tomme de Savoie", prix: "€3,90", image: tommeDeSavoie },
         ],
       },
       onlineReservation: {
@@ -278,34 +370,98 @@ const resources = {
         entrees: [
           { nom: "Huevo duro con mayonesa", prix: "3,10 €", image: oeufMayo },
           { nom: "Puerros con vinagreta", prix: "3,60 €", image: poireaux },
-          { nom: "Zanahorias ralladas con vinagreta", prix: "2,90 €", image: carottes },
-          { nom: "Rillettes de salmón", prix: "4,60 €", image: rilletteDeSaumon },
-          { nom: "Terrina campestre", prix: "4,20 €", image: terrine },
+          {
+            nom: "Zanahorias ralladas con vinagreta",
+            prix: "2,90 €",
+            image: carottes,
+          },
+          {
+            nom: "Rillettes de salmón",
+            prix: "4,60 €",
+            image: rilletteDeSaumon,
+          },
+          { nom: "Terrina campestre", prix: "4,30 €", image: terrine },
           { nom: "Salchichón seco", prix: "4,20 €", image: SaucissonSecMaison },
-          { nom: "Cuarto de camembert empanado con miel", prix: "4,90 €", image: camembert },
-          { nom: "Huevo escalfado, crema de Maroilles AOP", prix: "4,90 €", image: oeufPoche },
-          { nom: "Mousse de hígado de ave", prix: "4,10 €", image: mousseFoieVolaille },
+          {
+            nom: "Cuarto de camembert empanado con miel",
+            prix: "4,90 €",
+            image: camembert,
+          },
+          {
+            nom: "Huevo escalfado, crema de Maroilles AOP",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          {
+            nom: "Mousse de hígado de ave",
+            prix: "4,10 €",
+            image: mousseFoieVolaille,
+          },
           { nom: "Sopa de cebolla", prix: "5,10 €", image: soupe },
         ],
         plats: [
-          { nom: "Escalope de salmón, crema de chorizo, arroz", prix: "13,40 €", image: saumon },
-          { nom: "El Tradicional (tártaro), patatas fritas y ensalada", prix: "11,60 €", image: tradition },
-          { nom: "Le Bouillon (tártaro + tomme + pimientos)", prix: "12,10 €", image: bouillon },
-          { nom: "Salchicha cortada a cuchillo, salsa de Maroilles AOP, puré", prix: "10,90 €", image: saucissePlat },
-          { nom: "Entraña de ternera, salsa blue d'Auvergne AOP, patatas fritas", prix: "11,90 €", image: hampe },
+          {
+            nom: "Escalope de salmón, crema de chorizo, arroz",
+            prix: "13,40 €",
+            image: saumon,
+          },
+          {
+            nom: "El Tradicional (carne picada cruda preparada), patatas fritas y ensalada",
+            prix: "11,60 €",
+            image: tradition,
+          },
+          {
+            nom: "Le Bouillon (carne picada cruda preparada + tomme + pimientos)",
+            prix: "12,10 €",
+            image: bouillon,
+          },
+          {
+            nom: "Salchicha cortada a cuchillo, salsa de Maroilles AOP, puré",
+            prix: "10,90 €",
+            image: saucissePlat,
+          },
+          {
+            nom: "Entraña de ternera, salsa blue d'Auvergne AOP, patatas fritas",
+            prix: "11,90 €",
+            image: hampe,
+          },
           { nom: "Blanqueta de ternera, arroz", prix: "14,10 €", image: hampe },
-          { nom: "Andouillette de cerdo puro, salsa de mostaza, patatas fritas", prix: "11,90 €", image: hampe },
-          { nom: "Hamburguesa de ternera, salsa de pimienta verde, patatas fritas", prix: "10,90 €", image: steak },
-          { nom: "Suprema de pollo al estragón, salsa de mostaza, puré", prix: "12,90 €", image: carbonade },
-          { nom: "Carbonada flamenca, patatas fritas", prix: "12,90 €", image: poulet },
-          { nom: "Media berenjena asada [salsa de tomate, queso rallado], arroz", prix: "11,90 €", image: aubergine },
+          {
+            nom: "Andouillette de cerdo puro, salsa de mostaza, patatas fritas",
+            prix: "11,90 €",
+            image: andouillette,
+          },
+          {
+            nom: "Hamburguesa de ternera, salsa de pimienta verde, patatas fritas",
+            prix: "10,90 €",
+            image: steak,
+          },
+          {
+            nom: "Suprema de pollo al estragón, salsa de mostaza, puré",
+            prix: "11,90 €",
+            image: poulet,
+          },
+          {
+            nom: "Carbonada flamenca, patatas fritas",
+            prix: "12,90 €",
+            image: carbonade,
+          },
+          {
+            nom: "Media berenjena asada [salsa de tomate, queso rallado], arroz",
+            prix: "11,90 €",
+            image: aubergine,
+          },
         ],
         desserts: [
           { nom: "Crema de chocolate", prix: "3,90 €", image: chocolat },
-          { nom: "Crumble de manzana", prix: "3,90 €", image: chocolat },
+          { nom: "Crumble de manzana", prix: "3,90 €", image: crumble },
           { nom: "Isla flotante", prix: "4,30 €", image: ileFlo },
           { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
-          { nom: "Vasito de castaña, pan de especias, café", prix: "4,90 €", image: verrine },
+          {
+            nom: "Vasito de castaña, pan de especias, café",
+            prix: "4,90 €",
+            image: verrine,
+          },
           { nom: "AOP Brie de Meaux", prix: "4,10 €", image: fromage },
           { nom: "IGP Tomme de Savoie", prix: "3,90 €", image: tommeDeSavoie },
         ],
