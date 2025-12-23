@@ -373,16 +373,14 @@ footer {
 
 .linkReserver {
   text-decoration: none;
-  color: #f7e08a;
-  background-color: rgb(35, 35, 35);
   padding: 1rem 2rem;
   border-radius: 8px;
   border: 2px solid rgb(144, 130, 80);
   transition: background-color 0.3s ease;
 }
 .linkReserver:hover {
-  background-color: #d9c76a;
-  color: #000000;
+  background-color: #000000;
+  color: #d9c76a;
   transition: background-color 0.3s ease;
 }
 .linkReserver:active {
@@ -403,22 +401,12 @@ footer {
 
 /* Dégradé pour les boutons */
 .linkReserver {
-  background: linear-gradient(
-    90deg,
-    var(--color-secondary),
-    var(--color-accent)
-  );
   color: var(--color-text);
   transition: background var(--transition-speed) ease,
     transform var(--transition-speed) ease;
 }
 
 .linkReserver:hover {
-  background: linear-gradient(
-    90deg,
-    var(--color-accent),
-    var(--color-secondary)
-  );
   transform: scale(1.05);
 }
 
