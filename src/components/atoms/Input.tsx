@@ -1,13 +1,12 @@
-import React from "react";
 import { InputProps } from "../../../interfaces";
 
-export const Input: React.FC<InputProps> = ({
+export const Input = ({
   type,
   placeholder,
   value,
   onChange,
   required = false,
-}) => (
+}: InputProps) => (
   <input
     type={type}
     placeholder={placeholder}

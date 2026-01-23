@@ -1,8 +1,7 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import { NavButtonProps } from "../../../interfaces";
 
-export const NavButton: React.FC<NavButtonProps> = ({ to, label, icon }) => {
+export const NavButton = ({ to, label, icon }: NavButtonProps) => {
   return (
     <NavLink
       to={to}

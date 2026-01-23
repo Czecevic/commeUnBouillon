@@ -1,20 +1,15 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
-interface MenuSectionProps {
-  category: string;
-}
-
-export const MenuSection: React.FC<MenuSectionProps> = ({ category }) => {
+export const MenuSection = ({ category }: { category: string }) => {
   const { t } = useTranslation();
 
   // Get the menu items from the translation file
-  const plats = t(`menu.${category}`, { returnObjects: true }) as Array<{
+  const plats = t(`menu.${category}`, { returnObjects: true }) as {
     nom: string;
     prix: string;
     image: string;
-  }>;
-  console.log(plats)
+  }[];
+  console.log(plats);
 
   return (
     <div className="menu-section">

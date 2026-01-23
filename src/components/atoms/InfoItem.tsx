@@ -1,5 +1,3 @@
-import { InfoItemProps } from "../../../interfaces";
-
-export const InfoItem: React.FC<InfoItemProps> = ({ children }) => (
+export const InfoItem = ({ children }: { children: React.ReactNode }) => (
   <li className="info-item">{children}</li>
 );

@@ -1,7 +1,6 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
-export const OnlineReservation: React.FC = () => {
+export const OnlineReservation = () => {
   const { t } = useTranslation(); // Hook pour accéder aux traductions
 
   return (

@@ -1,8 +1,6 @@
-import React from "react";
-import { InputField } from "../atoms/InputField";
 import { FormFieldProps } from "../../../interfaces";
 
-export const FormField: React.FC<FormFieldProps> = ({
+export const FormField = ({
   label,
   id,
   name,
@@ -13,21 +11,22 @@ export const FormField: React.FC<FormFieldProps> = ({
   min,
   max,
   required = false,
-}) => (
+}: FormFieldProps) => (
   <div className="form-field">
     <label htmlFor={id} className="form-label">
       {label}
     </label>
-    <InputField
+    <input
       id={id}
       name={name}
       type={type}
       value={value}
       onChange={onChange}
       placeholder={placeholder}
-      min={typeof min === "string" ? parseFloat(min) : min}
-      max={typeof max === "string" ? parseFloat(max) : max}
+      min={min}
+      max={max}
       required={required}
+      className="input-field"
     />
   </div>
 );

@@ -1,8 +1,7 @@
-import React from "react";
 import { NavButton } from "../atoms/NavButton";
 import { FaHome, FaUtensils, FaCalendarAlt } from "react-icons/fa";
 
-export const NavBar: React.FC = () => {
+export const NavBar = () => {
   return (
     <nav className="navBar">
       <NavButton to="/" label="Accueil" icon={<FaHome />} />

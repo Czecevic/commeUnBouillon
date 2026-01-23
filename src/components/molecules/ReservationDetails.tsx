@@ -1,8 +1,7 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { InfoItem } from "../atoms/InfoItem";
 
-export const ReservationDetails: React.FC = () => {
+export const ReservationDetails = () => {
   const { t } = useTranslation();
 
   const title = t("reservationDetails.title");
