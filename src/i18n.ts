@@ -35,14 +35,14 @@ import rizAuLait from "./assets/img/riz_au_lait.jpeg";
 import hampeHiver from "./assets/img/hampe_hiver.jpeg";
 import patesTomate from "./assets/img/pates_tomate.jpeg";
 import saumonHiver from "./assets/img/saumon_hiver.jpeg";
-// import parmentierHiver from "./assets/img/parmentier_hiver.jpeg";
+import parmentierHiver from "./assets/img/parmentier_hiver.jpeg";
 import bourguignonHiver from "./assets/img/bourguignon_hiver.jpeg";
 // import mousseFoieVolaille from "./assets/img/saumon.jpeg";
 import SaucissonSecMaison from "./assets/img/saucisson_sec.jpeg";
 import rilletteDeSaumon from "./assets/img/mousseFoieVolaille.jpeg";
 import andouillette from "./assets/img/andouille.jpeg";
 import crumble from "./assets/img/crumble.jpeg";
-import veau from "./assets/img/veau.jpeg";
+// import veau from "./assets/img/veau.jpeg";
 
 // Traductions
 const resources = {
@@ -130,7 +130,11 @@ const resources = {
             prix: "11,90 €",
             image: hampeHiver,
           },
-          { nom: "Parmentier de canard, riz", prix: "13,90 €", image: veau },
+          {
+            nom: "Parmentier de canard, riz",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Andouillette pur porc, sauce moutarde, frites",
             prix: "11,90 €",
@@ -287,7 +291,11 @@ const resources = {
             prix: "11,90 €",
             image: hampeHiver,
           },
-          { nom: "Duck parmentier, rice", prix: "13,90 €", image: veau },
+          {
+            nom: "Duck parmentier, rice",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Pure pork andouillette, mustard sauce, fries",
             prix: "11,90 €",
@@ -435,7 +443,11 @@ const resources = {
             prix: "11,90 €",
             image: hampeHiver,
           },
-          { nom: "Pato parmentier, arroz", prix: "13,90 €", image: veau },
+          {
+            nom: "Pato parmentier, arroz",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Andouillette de cerdo puro, salsa de mostaza, patatas fritas",
             prix: "11,90 €",
@@ -563,7 +575,7 @@ const resources = {
             image: saucissePlat,
           },
           { nom: "牛腩，香草酱，薯条", prix: "11,90 €", image: hampeHiver },
-          { nom: "鸭肉馅饼，米饭", prix: "13,90 €", image: veau },
+          { nom: "鸭肉馅饼，米饭", prix: "13,90 €", image: parmentierHiver },
           {
             nom: "安杜耶特（猪肠香肠），芥末酱，薯条",
             prix: "11,90 €",
@@ -690,7 +702,11 @@ const resources = {
             prix: "11,90 €",
             image: hampeHiver,
           },
-          { nom: "오리 파르망티에, 밥", prix: "13,90 €", image: veau },
+          {
+            nom: "오리 파르망티에, 밥",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "안두예트(돼지 소시지), 머스타드 소스, 감자튀김",
             prix: "11,90 €",
@@ -853,7 +869,7 @@ const resources = {
           {
             nom: "鴨のパルマンティエ、ご飯",
             prix: "13,90 €",
-            image: veau,
+            image: parmentierHiver,
           },
           {
             nom: "アンドゥイエット（豚の腸詰）、マスタードソース、フライドポテト",
