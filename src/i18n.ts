@@ -360,6 +360,162 @@ const resources = {
       },
     },
   },
+  it: {
+    translation: {
+      phone: "Per telefono",
+      address: "Indirizzo",
+      openingHours: "Orari di apertura",
+      mondayToSaturday: "Da lunedì a sabato",
+      time: "11:45 – 22:00",
+      reservationDetails: {
+        title: "ℹ️ Informazioni importanti sulle prenotazioni",
+        items: [
+          "Prenotazioni possibili <strong>telefonicamente</strong> o <strong>online tramite TheFork</strong> <em>(solo servizio serale)</em>.",
+          "Fasce orarie per le prenotazioni: <br/> <strong>11:45 – 12:30</strong> e <strong>18:00 – 19:30</strong>.",
+          "Al di fuori di questi orari, <strong>i clienti senza prenotazione sono i benvenuti</strong>; faremo sempre del nostro meglio per trovarvi un tavolo.",
+          "Capacità massima per prenotazione: <strong>8 persone</strong>, soggetta a disponibilità.",
+          "<strong>Non si accettano prenotazioni</strong> via email o tramite segreteria telefonica.",
+          "Vengono accolti solo <strong>gruppi completi</strong>. Vi preghiamo di attendere all’esterno e presentarvi una volta che tutto il gruppo è arrivato.",
+          "<strong>I tavoli non vengono più mantenuti dopo l’orario di prenotazione.</strong>",
+          "L’assegnazione dei tavoli avviene <strong>in base all’ordine delle prenotazioni.</strong> Grazie per la comprensione.",
+        ],
+      },
+      menu: {
+        selectionTitle: "Il Menù",
+        entreesTitle: "Antipasti",
+        platsTitle: "Piatti principali",
+        dessertsTitle: "Dessert",
+        entrees: [
+          {
+            nom: "Uovo sodo con maionese",
+            prix: "3,10 €",
+            image: oeufMayo,
+          },
+          { nom: "Porri con vinaigrette", prix: "3,60 €", image: poireaux },
+          {
+            nom: "Carote grattugiate con vinaigrette",
+            prix: "2,90 €",
+            image: carottes,
+          },
+          {
+            nom: "Rillettes di salmone",
+            prix: "4,60 €",
+            image: rilletteDeSaumon,
+          },
+          { nom: "Terrina rustica", prix: "4,30 €", image: terrine },
+          { nom: "Salsiccia secca", prix: "3,60 €", image: SaucissonSecMaison },
+          {
+            nom: "Camembert impanato con miele",
+            prix: "4,90 €",
+            image: camembert,
+          },
+          {
+            nom: "Uovo in camicia, crema di Maroilles AOP",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          {
+            nom: "Lumache con pomodoro e chorizo",
+            prix: "4,10 €",
+            image: escargot,
+          },
+          { nom: "Zuppa di cipolle", prix: "5,10 €", image: soupe },
+        ],
+        plats: [
+          {
+            nom: "Salmone, crema alle erbe, pasta",
+            prix: "13,40 €",
+            image: saumonHiver,
+          },
+          {
+            nom: "La Tradition (carne di manzo cruda), patatine e insalata",
+            prix: "11,60 €",
+            image: tradition,
+          },
+          {
+            nom: "Le Bouillon (carne di manzo cruda + tomme + peperoni)",
+            prix: "12,10 €",
+            image: bouillon,
+          },
+          {
+            nom: "Salsiccia tagliata al coltello, salsa Maroilles AOP, purè di patate",
+            prix: "10,90 €",
+            image: saucissePlat,
+          },
+          {
+            nom: "Diaframma di manzo, salsa chimichurri, patatine",
+            prix: "11,90 €",
+            image: hampeHiver,
+          },
+          {
+            nom: "Parmentier d’anatra, riso",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
+          {
+            nom: "Andouillette di puro maiale, salsa alla senape, patatine",
+            prix: "11,90 €",
+            image: andouillette,
+          },
+          {
+            nom: "Hamburger di manzo, salsa al pepe verde, patatine",
+            prix: "10,90 €",
+            image: steak,
+          },
+          {
+            nom: "Pollo al curry con riso",
+            prix: "12,90 €",
+            image: pouletHiver,
+          },
+          {
+            nom: "Boeuf bourguignon, purè di patate",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "Pasta al pomodoro [formaggio grattugiato]",
+            prix: "10,90 €",
+            image: patesTomate,
+          },
+        ],
+        desserts: [
+          { nom: "Crema al cioccolato", prix: "3,90 €", image: chocolat },
+          { nom: "Crumble di mele", prix: "3,90 €", image: crumble },
+          { nom: "Isola galleggiante", prix: "4,30 €", image: ileFlo },
+          { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
+          {
+            nom: "Budino di riso",
+            prix: "4,20 €",
+            image: rizAuLait,
+          },
+          { nom: "Brie de Meaux AOP", prix: "4,10 €", image: fromage },
+          { nom: "Tomme de Savoie IGP", prix: "3,90 €", image: tommeDeSavoie },
+        ],
+      },
+      onlineReservation: {
+        title: "Prenota online",
+        description:
+          "Puoi anche prenotare direttamente tramite TheFork cliccando qui sotto:",
+        linkText: "Prenota su TheFork",
+      },
+      home: {
+        title: "Comme un Bouillon",
+        subtitle: "Cucina tradizionale francese nel cuore di Parigi",
+        address: "📍 17 Rue de Choiseul, 75002 Parigi",
+        intro: {
+          welcome: "Benvenuti da noi 👋",
+          paragraph1:
+            "A pochi passi dall’Opéra Garnier, nel cuore del 2° arrondissement di Parigi, <strong>Comme un Bouillon</strong> vi accoglie in un ambiente caldo e autentico.",
+          paragraph2:
+            "Ispirato ai famosi bouillon parigini, il nostro ristorante, aperto dal <strong>giugno 2021</strong>, valorizza la <strong>cucina tradizionale francese</strong>: piatti generosi, semplici e fatti in casa a prezzi molto accessibili.",
+          paragraph3:
+            "Ogni mattina riceviamo <strong>prodotti freschi</strong> per garantirvi un piatto gustoso, servito rapidamente e con il sorriso. Che siate di fretta a pranzo o in cerca di una cena prima di uno spettacolo teatrale, il nostro team è qui per voi.",
+          paragraph4:
+            "E poiché ci piace fare tutto da soli, anche l’<strong>arredamento</strong> è stato progettato e realizzato artigianalmente, creando un’atmosfera unica e conviviale!",
+        },
+      },
+    },
+  },
   es: {
     translation: {
       phone: "Por teléfono",
