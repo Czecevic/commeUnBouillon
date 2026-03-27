@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../index.css";
 import { NavBar } from "../components/organisms/NavBar";
 import { MenuSection } from "../components/molecules/MenuSection";
 import { LanguageSwitcher } from "../components/molecules/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
-export const Menu: React.FC = () => {
+export const Menu = () => {
   const { t } = useTranslation();
   const [selected, setSelected] = useState<"entrees" | "plats" | "desserts">(
-    "entrees"
+    "entrees",
   );
 
   return (
@@ -56,8 +56,8 @@ export const Menu: React.FC = () => {
                 selected === "entrees"
                   ? "0%"
                   : selected === "plats"
-                  ? "33.33%"
-                  : "66.66%",
+                    ? "33.33%"
+                    : "66.66%",
             }}
           />
         </div>
