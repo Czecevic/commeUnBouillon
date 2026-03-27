@@ -1,4 +1,6 @@
 import i18n from "i18next";
+// import { AdvancedImage } from "@cloudinary/react";
+// import { Cloudinary } from "@cloudinary/url-gen/index";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
@@ -16,22 +18,31 @@ import soupe from "./assets/img/soupe_a_loignon.jpeg";
 import tradition from "./assets/img/tradition.jpeg";
 import bouillon from "./assets/img/bouillon.jpeg";
 import saucissePlat from "./assets/img/saucisse.jpeg";
-import saumon from "./assets/img/poisson.jpeg";
-import hampe from "./assets/img/hampe.jpeg";
+// import saumon from "./assets/img/poisson.jpeg";
+// import hampe from "./assets/img/hampe.jpeg";
 import steak from "./assets/img/steakFrites.jpeg";
-import poulet from "./assets/img/poulet.jpeg";
-import carbonade from "./assets/img/carbonade.jpeg";
+// import poulet from "./assets/img/poulet.jpeg";
+// import carbonade from "./assets/img/carbonade.jpeg";
 import chocolat from "./assets/img/chocolat.jpeg";
 import caramel from "./assets/img/caramel.jpeg";
 import ileFlo from "./assets/img/ileFlo.jpeg";
-import aubergine from "./assets/img/aubergine.jpeg";
-import verrine from "./assets/img/verrine.jpeg";
-import mousseFoieVolaille from "./assets/img/saumon.jpeg";
+// import aubergine from "./assets/img/aubergine.jpeg";
+// import verrine from "./assets/img/verrine.jpeg";
+// new
+import escargot from "./assets/img/escargot.jpeg";
+import pouletHiver from "./assets/img/poulet_creme.jpeg";
+import rizAuLait from "./assets/img/riz_au_lait.jpeg";
+import hampeHiver from "./assets/img/hampe.jpeg";
+import patesTomate from "./assets/img/pates_tomate.jpeg";
+import saumonHiver from "./assets/img/saumon.jpeg";
+import parmentierHiver from "./assets/img/parmentier.jpeg";
+import bourguignonHiver from "./assets/img/boeuf_bourg.jpeg";
+// import mousseFoieVolaille from "./assets/img/saumon.jpeg";
 import SaucissonSecMaison from "./assets/img/saucisson_sec.jpeg";
 import rilletteDeSaumon from "./assets/img/mousseFoieVolaille.jpeg";
 import andouillette from "./assets/img/andouille.jpeg";
 import crumble from "./assets/img/crumble.jpeg";
-import veau from "./assets/img/veau.jpeg";
+// import veau from "./assets/img/veau.jpeg";
 
 // Traductions
 const resources = {
@@ -87,17 +98,17 @@ const resources = {
             image: oeufPoche,
           },
           {
-            nom: "Mousse de foie de volaille",
-            prix: "4,10 €",
-            image: mousseFoieVolaille,
+            nom: "Escargot à la tomate & Chorizo",
+            prix: "7,90 €",
+            image: escargot,
           },
           { nom: "Soupe à l’oignon", prix: "5,10 €", image: soupe },
         ],
         plats: [
           {
-            nom: "Saumon, crème au chorizo, riz",
-            prix: "13,40 €",
-            image: saumon,
+            nom: "Saumon, crème aux herbes, pâtes",
+            prix: "€13,40€",
+            image: saumonHiver,
           },
           {
             nom: "Le tradition (boeuf haché cru préparé), frites & salade",
@@ -115,11 +126,15 @@ const resources = {
             image: saucissePlat,
           },
           {
-            nom: "Hampe de bœuf, sauce bleue d'Auvergne AOP, frites",
+            nom: "Hampe de bœuf, sauce chimichurri, frites",
             prix: "11,90 €",
-            image: hampe,
+            image: hampeHiver,
           },
-          { nom: "Blanquette de veau, riz", prix: "14,10 €", image: veau },
+          {
+            nom: "Parmentier de canard, riz",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Andouillette pur porc, sauce moutarde, frites",
             prix: "11,90 €",
@@ -131,19 +146,19 @@ const resources = {
             image: steak,
           },
           {
-            nom: "Suprême de poulet à l'estragon, sauce moutarde, purée",
-            prix: "11,90 €",
-            image: poulet,
-          },
-          {
-            nom: "Carbonade flamande, frites",
+            nom: "Poulet coco curry, riz",
             prix: "12,90 €",
-            image: carbonade,
+            image: pouletHiver,
           },
           {
-            nom: "Demi aubergine rôtie [sauce tomate, fromage râpé], riz",
-            prix: "11,90 €",
-            image: aubergine,
+            nom: "Boeuf bourguinon, purée",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "Pâtes à la tomate [fromage râpé]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
@@ -152,9 +167,9 @@ const resources = {
           { nom: "Île flottante", prix: "4,30 €", image: ileFlo },
           { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
           {
-            nom: "Verrine marron, pain d'épice, café",
-            prix: "4,90 €",
-            image: verrine,
+            nom: "Riz au lait",
+            prix: "4,20 €",
+            image: rizAuLait,
           },
           {
             nom: "AOP Brie de Meaux",
@@ -221,100 +236,104 @@ const resources = {
         entrees: [
           {
             nom: "Hard-boiled egg with mayonnaise",
-            prix: "€3.10",
+            prix: "3.10 €",
             image: oeufMayo,
           },
-          { nom: "Leeks with vinaigrette", prix: "€3,60", image: poireaux },
+          { nom: "Leeks with vinaigrette", prix: "3,60 €", image: poireaux },
           {
             nom: "Grated carrots with vinaigrette",
-            prix: "€2,90",
+            prix: "2,90 €",
             image: carottes,
           },
-          { nom: "Salmon rillettes", prix: "€4,60", image: rilletteDeSaumon },
-          { nom: "Country-style terrine", prix: "€4,30", image: terrine },
-          { nom: "Dry sausage", prix: "€3,60", image: SaucissonSecMaison },
+          { nom: "Salmon rillettes", prix: "4,60 €", image: rilletteDeSaumon },
+          { nom: "Country-style terrine", prix: "4,30 €", image: terrine },
+          { nom: "Dry sausage", prix: "3,60 €", image: SaucissonSecMaison },
           {
             nom: "Breaded camembert with honey",
-            prix: "€4,90",
+            prix: "4,90 €",
             image: camembert,
           },
           {
             nom: "Poached egg, Maroilles AOP cream",
-            prix: "€4,90",
+            prix: "4,90 €",
             image: oeufPoche,
           },
           {
-            nom: "Chicken liver mousse",
-            prix: "€4,10",
-            image: mousseFoieVolaille,
+            nom: "Escargot with tomato & chorizo",
+            prix: "7,90 €",
+            image: escargot,
           },
-          { nom: "Onion soup", prix: "€5,10", image: soupe },
+          { nom: "Onion soup", prix: "5,10 €", image: soupe },
         ],
         plats: [
           {
-            nom: "Salmon, chorizo cream, rice",
-            prix: "€13,40",
-            image: saumon,
+            nom: "Salmon, herb cream, pasta",
+            prix: "13,40 €",
+            image: saumonHiver,
           },
           {
             nom: "The Tradition (raw ground beef), fries & salad",
-            prix: "€11,60",
+            prix: "11,60 €",
             image: tradition,
           },
           {
             nom: "Le Bouillon (raw ground beef + tomme + peppers)",
-            prix: "€12,10",
+            prix: "12,10 €",
             image: bouillon,
           },
           {
             nom: "Knife-cut sausage, Maroilles AOP sauce, mashed potatoes",
-            prix: "€10,90",
+            prix: "10,90 €",
             image: saucissePlat,
           },
           {
-            nom: "Beef skirt steak, blue cheese sauce, fries",
-            prix: "€11,90",
-            image: hampe,
+            nom: "Beef skirt steak, chimichurri sauce, fries",
+            prix: "11,90 €",
+            image: hampeHiver,
           },
-          { nom: "Veal blanquette, rice", prix: "€14,10", image: veau },
+          {
+            nom: "Duck parmentier, rice",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Pure pork andouillette, mustard sauce, fries",
-            prix: "€11,90",
+            prix: "11,90 €",
             image: andouillette,
           },
           {
             nom: "Minced steak, green pepper sauce, fries",
-            prix: "€10,90",
+            prix: "10,90 €",
             image: steak,
           },
           {
-            nom: "Chicken supreme with tarragon, mustard sauce, mashed potatoes",
-            prix: "€11,90",
-            image: poulet,
+            nom: "Chicken curry and rice",
+            prix: "12,90 €",
+            image: pouletHiver,
           },
           {
-            nom: "Flemish carbonnade, fries",
-            prix: "€12,90",
-            image: carbonade,
+            nom: "beef bourguignon, mashed potatoes",
+            prix: "13,10 €",
+            image: bourguignonHiver,
           },
           {
-            nom: "Half roasted eggplant [tomato sauce, grated cheese], rice",
-            prix: "€11,90",
-            image: aubergine,
+            nom: "Pasta with tomato sauce [grated cheese]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
-          { nom: "Chocolate cream pot", prix: "€3,90", image: chocolat },
-          { nom: "Apple crumble", prix: "€3,90", image: crumble },
-          { nom: "Floating island", prix: "€4,30", image: ileFlo },
-          { nom: "Crème brûlée", prix: "€4,10", image: caramel },
+          { nom: "Chocolate cream pot", prix: "3,90 €", image: chocolat },
+          { nom: "Apple crumble", prix: "3,90 €", image: crumble },
+          { nom: "Floating island", prix: "4,30 €", image: ileFlo },
+          { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
           {
-            nom: "Chestnut verrine, gingerbread, coffee",
-            prix: "€4,90",
-            image: verrine,
+            nom: "Rice pudding",
+            prix: "4,20 €",
+            image: rizAuLait,
           },
-          { nom: "AOP Brie de Meaux", prix: "€4,10", image: fromage },
-          { nom: "IGP Tomme de Savoie", prix: "€3,90", image: tommeDeSavoie },
+          { nom: "AOP Brie de Meaux", prix: "4,10 €", image: fromage },
+          { nom: "IGP Tomme de Savoie", prix: "3,90 €", image: tommeDeSavoie },
         ],
       },
       onlineReservation: {
@@ -337,6 +356,162 @@ const resources = {
             "Every morning, we receive <strong>fresh products</strong> to guarantee you a delicious plate, served quickly and with a smile. Whether you're in a hurry for lunch or looking for a meal before a theater show, our team is here for you.",
           paragraph4:
             "And because we love doing things ourselves, even the <strong>decor</strong> was designed and handmade, creating a unique and friendly atmosphere!",
+        },
+      },
+    },
+  },
+  it: {
+    translation: {
+      phone: "Per telefono",
+      address: "Indirizzo",
+      openingHours: "Orari di apertura",
+      mondayToSaturday: "Da lunedì a sabato",
+      time: "11:45 – 22:00",
+      reservationDetails: {
+        title: "ℹ️ Informazioni importanti sulle prenotazioni",
+        items: [
+          "Prenotazioni possibili <strong>telefonicamente</strong> o <strong>online tramite TheFork</strong> <em>(solo servizio serale)</em>.",
+          "Fasce orarie per le prenotazioni: <br/> <strong>11:45 – 12:30</strong> e <strong>18:00 – 19:30</strong>.",
+          "Al di fuori di questi orari, <strong>i clienti senza prenotazione sono i benvenuti</strong>; faremo sempre del nostro meglio per trovarvi un tavolo.",
+          "Capacità massima per prenotazione: <strong>8 persone</strong>, soggetta a disponibilità.",
+          "<strong>Non si accettano prenotazioni</strong> via email o tramite segreteria telefonica.",
+          "Vengono accolti solo <strong>gruppi completi</strong>. Vi preghiamo di attendere all’esterno e presentarvi una volta che tutto il gruppo è arrivato.",
+          "<strong>I tavoli non vengono più mantenuti dopo l’orario di prenotazione.</strong>",
+          "L’assegnazione dei tavoli avviene <strong>in base all’ordine delle prenotazioni.</strong> Grazie per la comprensione.",
+        ],
+      },
+      menu: {
+        selectionTitle: "Il Menù",
+        entreesTitle: "Antipasti",
+        platsTitle: "Piatti principali",
+        dessertsTitle: "Dessert",
+        entrees: [
+          {
+            nom: "Uovo sodo con maionese",
+            prix: "3,10 €",
+            image: oeufMayo,
+          },
+          { nom: "Porri con vinaigrette", prix: "3,60 €", image: poireaux },
+          {
+            nom: "Carote grattugiate con vinaigrette",
+            prix: "2,90 €",
+            image: carottes,
+          },
+          {
+            nom: "Rillettes di salmone",
+            prix: "4,60 €",
+            image: rilletteDeSaumon,
+          },
+          { nom: "Terrina rustica", prix: "4,30 €", image: terrine },
+          { nom: "Salsiccia secca", prix: "3,60 €", image: SaucissonSecMaison },
+          {
+            nom: "Camembert impanato con miele",
+            prix: "4,90 €",
+            image: camembert,
+          },
+          {
+            nom: "Uovo in camicia, crema di Maroilles AOP",
+            prix: "4,90 €",
+            image: oeufPoche,
+          },
+          {
+            nom: "Lumache con pomodoro e chorizo",
+            prix: "7,90 €",
+            image: escargot,
+          },
+          { nom: "Zuppa di cipolle", prix: "5,10 €", image: soupe },
+        ],
+        plats: [
+          {
+            nom: "Salmone, crema alle erbe, pasta",
+            prix: "13,40 €",
+            image: saumonHiver,
+          },
+          {
+            nom: "La Tradition (carne di manzo cruda), patatine e insalata",
+            prix: "11,60 €",
+            image: tradition,
+          },
+          {
+            nom: "Le Bouillon (carne di manzo cruda + tomme + peperoni)",
+            prix: "12,10 €",
+            image: bouillon,
+          },
+          {
+            nom: "Salsiccia tagliata al coltello, salsa Maroilles AOP, purè di patate",
+            prix: "10,90 €",
+            image: saucissePlat,
+          },
+          {
+            nom: "Diaframma di manzo, salsa chimichurri, patatine",
+            prix: "11,90 €",
+            image: hampeHiver,
+          },
+          {
+            nom: "Parmentier d’anatra, riso",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
+          {
+            nom: "Andouillette di puro maiale, salsa alla senape, patatine",
+            prix: "11,90 €",
+            image: andouillette,
+          },
+          {
+            nom: "Hamburger di manzo, salsa al pepe verde, patatine",
+            prix: "10,90 €",
+            image: steak,
+          },
+          {
+            nom: "Pollo al curry con riso",
+            prix: "12,90 €",
+            image: pouletHiver,
+          },
+          {
+            nom: "Boeuf bourguignon, purè di patate",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "Pasta al pomodoro [formaggio grattugiato]",
+            prix: "10,90 €",
+            image: patesTomate,
+          },
+        ],
+        desserts: [
+          { nom: "Crema al cioccolato", prix: "3,90 €", image: chocolat },
+          { nom: "Crumble di mele", prix: "3,90 €", image: crumble },
+          { nom: "Isola galleggiante", prix: "4,30 €", image: ileFlo },
+          { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
+          {
+            nom: "Budino di riso",
+            prix: "4,20 €",
+            image: rizAuLait,
+          },
+          { nom: "Brie de Meaux AOP", prix: "4,10 €", image: fromage },
+          { nom: "Tomme de Savoie IGP", prix: "3,90 €", image: tommeDeSavoie },
+        ],
+      },
+      onlineReservation: {
+        title: "Prenota online",
+        description:
+          "Puoi anche prenotare direttamente tramite TheFork cliccando qui sotto:",
+        linkText: "Prenota su TheFork",
+      },
+      home: {
+        title: "Comme un Bouillon",
+        subtitle: "Cucina tradizionale francese nel cuore di Parigi",
+        address: "📍 17 Rue de Choiseul, 75002 Parigi",
+        intro: {
+          welcome: "Benvenuti da noi 👋",
+          paragraph1:
+            "A pochi passi dall’Opéra Garnier, nel cuore del 2° arrondissement di Parigi, <strong>Comme un Bouillon</strong> vi accoglie in un ambiente caldo e autentico.",
+          paragraph2:
+            "Ispirato ai famosi bouillon parigini, il nostro ristorante, aperto dal <strong>giugno 2021</strong>, valorizza la <strong>cucina tradizionale francese</strong>: piatti generosi, semplici e fatti in casa a prezzi molto accessibili.",
+          paragraph3:
+            "Ogni mattina riceviamo <strong>prodotti freschi</strong> per garantirvi un piatto gustoso, servito rapidamente e con il sorriso. Che siate di fretta a pranzo o in cerca di una cena prima di uno spettacolo teatrale, il nostro team è qui per voi.",
+          paragraph4:
+            "E poiché ci piace fare tutto da soli, anche l’<strong>arredamento</strong> è stato progettato e realizzato artigianalmente, creando un’atmosfera unica e conviviale!",
         },
       },
     },
@@ -392,17 +567,17 @@ const resources = {
             image: oeufPoche,
           },
           {
-            nom: "Mousse de hígado de ave",
-            prix: "4,10 €",
-            image: mousseFoieVolaille,
+            nom: "Caracoles con tomate y chorizo",
+            prix: "7,90 €",
+            image: escargot,
           },
           { nom: "Sopa de cebolla", prix: "5,10 €", image: soupe },
         ],
         plats: [
           {
-            nom: "Salmón, crema de chorizo, arroz",
+            nom: "Salmón, crema de hierbas, pasta",
             prix: "13,40 €",
-            image: saumon,
+            image: saumonHiver,
           },
           {
             nom: "El Tradicional (carne picada cruda preparada), patatas fritas y ensalada",
@@ -415,16 +590,20 @@ const resources = {
             image: bouillon,
           },
           {
-            nom: "Salchicha cortada a cuchillo, salsa de Maroilles AOP, puré",
+            nom: "Salchicha cortada a cuchillo, salsa chimichurri, puré",
             prix: "10,90 €",
             image: saucissePlat,
           },
           {
             nom: "Entraña de ternera, salsa blue d'Auvergne AOP, patatas fritas",
             prix: "11,90 €",
-            image: hampe,
+            image: hampeHiver,
           },
-          { nom: "Blanqueta de ternera, arroz", prix: "14,10 €", image: veau },
+          {
+            nom: "Pato parmentier, arroz",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "Andouillette de cerdo puro, salsa de mostaza, patatas fritas",
             prix: "11,90 €",
@@ -436,19 +615,19 @@ const resources = {
             image: steak,
           },
           {
-            nom: "Suprema de pollo al estragón, salsa de mostaza, puré",
-            prix: "11,90 €",
-            image: poulet,
-          },
-          {
-            nom: "Carbonada flamenca, patatas fritas",
+            nom: "Pollo al curry con arroz",
             prix: "12,90 €",
-            image: carbonade,
+            image: pouletHiver,
           },
           {
-            nom: "Media berenjena asada [salsa de tomate, queso rallado], arroz",
-            prix: "11,90 €",
-            image: aubergine,
+            nom: "boeuf bourguignon, puré de patatas",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "Pasta con tomate [queso rallado]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
@@ -457,9 +636,9 @@ const resources = {
           { nom: "Isla flotante", prix: "4,30 €", image: ileFlo },
           { nom: "Crème brûlée", prix: "4,10 €", image: caramel },
           {
-            nom: "Vasito de castaña, pan de especias, café",
-            prix: "4,90 €",
-            image: verrine,
+            nom: "Arroz con leche",
+            prix: "4,20 €",
+            image: rizAuLait,
           },
           { nom: "AOP Brie de Meaux", prix: "4,10 €", image: fromage },
           { nom: "IGP Tomme de Savoie", prix: "3,90 €", image: tommeDeSavoie },
@@ -527,11 +706,15 @@ const resources = {
             prix: "4,90 €",
             image: oeufPoche,
           },
-          { nom: "禽肝慕斯", prix: "4,10 €", image: mousseFoieVolaille },
+          { nom: "番茄与西班牙辣香肠烩蜗牛", prix: "7,90 €", image: escargot },
           { nom: "洋葱汤", prix: "5,10 €", image: soupe },
         ],
         plats: [
-          { nom: "三文鱼，辣香肠奶油，米饭", prix: "13,40 €", image: saumon },
+          {
+            nom: "三文鱼，香草奶油，意面",
+            prix: "13,40 €",
+            image: saumonHiver,
+          },
           {
             nom: "传统（调味生牛肉），薯条与沙拉",
             prix: "11,60 €",
@@ -547,20 +730,24 @@ const resources = {
             prix: "10,90 €",
             image: saucissePlat,
           },
-          { nom: "牛裙肉，蓝纹奶酪酱，薯条", prix: "11,90 €", image: hampe },
-          { nom: "小牛肉白汁，米饭", prix: "14,10 €", image: veau },
+          { nom: "牛腩，香草酱，薯条", prix: "11,90 €", image: hampeHiver },
+          { nom: "鸭肉馅饼，米饭", prix: "13,90 €", image: parmentierHiver },
           {
             nom: "安杜耶特（猪肠香肠），芥末酱，薯条",
             prix: "11,90 €",
             image: andouillette,
           },
           { nom: "碎牛肉饼，青胡椒酱，薯条", prix: "10,90 €", image: steak },
-          { nom: "龙蒿鸡胸，芥末酱，土豆泥", prix: "11,90 €", image: poulet },
-          { nom: "佛兰德炖牛肉，薯条", prix: "12,90 €", image: carbonade },
+          { nom: "椰香咖喱鸡配米饭", prix: "12,90 €", image: pouletHiver },
           {
-            nom: "半个烤茄子［番茄酱，碎奶酪］，米饭",
-            prix: "11,90 €",
-            image: aubergine,
+            nom: "勃艮第炖牛肉，土豆泥",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "番茄意面[磨碎的奶酪]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
@@ -568,7 +755,7 @@ const resources = {
           { nom: "苹果脆", prix: "3,90 €", image: crumble },
           { nom: "浮岛（法式甜点）", prix: "4,30 €", image: ileFlo },
           { nom: "焦糖布丁", prix: "4,10 €", image: caramel },
-          { nom: "栗子慕斯杯，香料面包，咖啡", prix: "4,90 €", image: verrine },
+          { nom: "米布丁", prix: "4,20 €", image: rizAuLait },
           { nom: "AOP 梅多布里干酪", prix: "4,10 €", image: fromage },
           { nom: "IGP 萨瓦奶酪", prix: "3,90 €", image: tommeDeSavoie },
         ],
@@ -638,11 +825,19 @@ const resources = {
             image: camembert,
           },
           { nom: "수란, Maroilles AOP 크림", prix: "4,90 €", image: oeufPoche },
-          { nom: "가금류 간 무스", prix: "4,10 €", image: mousseFoieVolaille },
+          {
+            nom: "토마토와 초리조를 곁들인 달팽이",
+            prix: "7,90 €",
+            image: escargot,
+          },
           { nom: "양파 수프", prix: "5,10 €", image: soupe },
         ],
         plats: [
-          { nom: "연어, 초리소 크림, 밥", prix: "13,40 €", image: saumon },
+          {
+            nom: "연어, 허브 크림, 파스타",
+            prix: "13,40 €",
+            image: saumonHiver,
+          },
           {
             nom: "트라디셔널(조리된 생 다진 소고기), 감자튀김 & 샐러드",
             prix: "11,60 €",
@@ -659,11 +854,15 @@ const resources = {
             image: saucissePlat,
           },
           {
-            nom: "햄프(소 부위), 블루 도베르뉴 AOP 소스, 감자튀김",
+            nom: "함프(소고기 부위), 치미추리 소스, 감자튀김",
             prix: "11,90 €",
-            image: hampe,
+            image: hampeHiver,
           },
-          { nom: "송아지 블랑케트, 밥", prix: "14,10 €", image: veau },
+          {
+            nom: "오리 파르망티에, 밥",
+            prix: "13,90 €",
+            image: parmentierHiver,
+          },
           {
             nom: "안두예트(돼지 소시지), 머스타드 소스, 감자튀김",
             prix: "11,90 €",
@@ -675,19 +874,19 @@ const resources = {
             image: steak,
           },
           {
-            nom: "타라곤 치킨 수프림, 머스타드 소스, 으깬 감자",
-            prix: "11,90 €",
-            image: poulet,
-          },
-          {
-            nom: "플랑드르식 카르보나다, 감자튀김",
+            nom: "코코넛 커리 치킨과 밥",
             prix: "12,90 €",
-            image: carbonade,
+            image: pouletHiver,
           },
           {
-            nom: "구운 가지 반쪽 [토마토 소스, 강판 치즈], 밥",
-            prix: "11,90 €",
-            image: aubergine,
+            nom: "부르고뉴식 소고기, 감자 퓨레",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "토마토 파스타 [간 치즈]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
@@ -699,7 +898,7 @@ const resources = {
             image: ileFlo,
           },
           { nom: "크렘 브뤼레", prix: "4,10 €", image: caramel },
-          { nom: "밤 베린, 향신료 빵, 커피", prix: "4,90 €", image: verrine },
+          { nom: "우유밥", prix: "4,20 €", image: rizAuLait },
           {
             nom: "AOP 브리 드 모(Brie de Meaux)",
             prix: "4,10 €",
@@ -790,14 +989,18 @@ const resources = {
             prix: "4,90 €",
             image: oeufPoche,
           },
-          { nom: "鶏レバームース", prix: "4,10 €", image: mousseFoieVolaille },
+          {
+            nom: "トマトとチョリソーのエスカルゴ",
+            prix: "7,90 €",
+            image: escargot,
+          },
           { nom: "オニオングラタンスープ", prix: "5,10 €", image: soupe },
         ],
         plats: [
           {
-            nom: "サーモン、チョリソクリーム、ライス",
+            nom: "サーモン、ハーブクリーム、パスタ",
             prix: "13,40 €",
-            image: saumon,
+            image: saumonHiver,
           },
           {
             nom: "トラディショナル（調理した生ひき肉）、フライドポテト＆サラダ",
@@ -815,14 +1018,14 @@ const resources = {
             image: saucissePlat,
           },
           {
-            nom: "ハンプ（牛の部位）、ブルー・ドーヴェルニュAOPソース、フライドポテト",
+            nom: "ハンプ（牛肉の塊）、チミチュリソース、フライドポテト",
             prix: "11,90 €",
-            image: hampe,
+            image: hampeHiver,
           },
           {
-            nom: "ブランケット・ド・ヴォ（子牛の白い煮込み）、ライス",
-            prix: "14,10 €",
-            image: veau,
+            nom: "鴨のパルマンティエ、ご飯",
+            prix: "13,90 €",
+            image: parmentierHiver,
           },
           {
             nom: "アンドゥイエット（豚の腸詰）、マスタードソース、フライドポテト",
@@ -835,19 +1038,19 @@ const resources = {
             image: steak,
           },
           {
-            nom: "タラゴン風チキンのスープリーム、マスタードソース、マッシュポテト",
-            prix: "11,90 €",
-            image: poulet,
-          },
-          {
-            nom: "フランダース風カルボナード、フライドポテト",
+            nom: "ココナッツカレーチキンとライス",
             prix: "12,90 €",
-            image: carbonade,
+            image: pouletHiver,
           },
           {
-            nom: "半分のローストナス［トマトソース、チーズのせ］、ライス",
-            prix: "11,90 €",
-            image: aubergine,
+            nom: "ビーフ・ブルギニョン、マッシュポテト",
+            prix: "13,10 €",
+            image: bourguignonHiver,
+          },
+          {
+            nom: "トマトパスタ [粉チーズ]",
+            prix: "10,90 €",
+            image: patesTomate,
           },
         ],
         desserts: [
@@ -856,9 +1059,9 @@ const resources = {
           { nom: "浮島（イル・フロッタント）", prix: "4,30 €", image: ileFlo },
           { nom: "クレームブリュレ", prix: "4,10 €", image: caramel },
           {
-            nom: "栗のヴェリーヌ、パンデピス、コーヒー",
-            prix: "4,90 €",
-            image: verrine,
+            nom: "ライスプディング",
+            prix: "4,20 €",
+            image: rizAuLait,
           },
           { nom: "AOP ブリー・ド・モー", prix: "4,10 €", image: fromage },
           {
