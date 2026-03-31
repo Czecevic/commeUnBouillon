@@ -8,7 +8,7 @@ export const OnlineReservation = () => {
       <h2>💻 {t("onlineReservation.title")}</h2>
       <p>{t("onlineReservation.description")}</p>
       <a
-        href="https://www.thefork.fr/restaurant/comme-un-bouillon-r742361"
+        href="https://widget.thefork.com/fr/f74e343a-0fb0-42e6-bc3e-3f00eb097ae5?step=date"
         target="_blank"
         rel="noopener noreferrer"
         className="linkReserver"
