@@ -1,8 +1,7 @@
-import React from "react";
 import { InputField } from "../atoms/InputField";
-import { FormFieldProps } from "../../../interfaces";
+import type { FormFieldProps } from "../../../interfaces";
 
-export const FormField: React.FC<FormFieldProps> = ({
+export const FormField = ({
   label,
   id,
   name,
@@ -13,7 +12,7 @@ export const FormField: React.FC<FormFieldProps> = ({
   min,
   max,
   required = false,
-}) => (
+}: FormFieldProps) => (
   <div className="form-field">
     <label htmlFor={id} className="form-label">
       {label}

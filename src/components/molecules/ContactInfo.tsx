@@ -1,7 +1,6 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
-export const ContactInfo: React.FC = () => {
+export const ContactInfo = () => {
   const { t } = useTranslation(); // Hook pour accéder aux traductions
 
   return (

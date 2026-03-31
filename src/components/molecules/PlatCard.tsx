@@ -1,6 +1,6 @@
-import { Plat } from "../../../interfaces";
+import type { Plat } from "../../../interfaces";
 
-export const PlatCard: React.FC<Plat> = ({ nom, prix, image }) => (
+export const PlatCard = ({ nom, prix, image }: Plat) => (
   <div className="plat">
     <img
       loading="lazy"
