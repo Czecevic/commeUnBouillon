@@ -131,7 +131,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "Parmentier de canard, riz",
+            nom: "Parmentier de canard",
             prix: "13,90 €",
             image: parmentier,
           },
@@ -292,7 +292,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "Duck parmentier, rice",
+            nom: "Duck parmentier",
             prix: "13,90 €",
             image: parmentier,
           },
@@ -302,7 +302,7 @@ const resources = {
             image: andouillette,
           },
           {
-            nom: "Minced steak, green pepper sauce, fries",
+            nom: "Ground steak, green pepper sauce, fries",
             prix: "10,90 €",
             image: steak,
           },
@@ -448,7 +448,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "Parmentier d’anatra, riso",
+            nom: "Parmentier d’anatra",
             prix: "13,90 €",
             image: parmentier,
           },
@@ -600,7 +600,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "Pato parmentier, arroz",
+            nom: "Pato parmentier",
             prix: "13,90 €",
             image: parmentier,
           },
@@ -731,7 +731,7 @@ const resources = {
             image: saucissePlat,
           },
           { nom: "牛腩，香草酱，薯条", prix: "11,90 €", image: hampe },
-          { nom: "鸭肉馅饼，米饭", prix: "13,90 €", image: parmentier },
+          { nom: "鸭肉馅饼", prix: "13,90 €", image: parmentier },
           {
             nom: "安杜耶特（猪肠香肠），芥末酱，薯条",
             prix: "11,90 €",
@@ -859,7 +859,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "오리 파르망티에, 밥",
+            nom: "오리 파르망티에",
             prix: "13,90 €",
             image: parmentier,
           },
@@ -1023,7 +1023,7 @@ const resources = {
             image: hampe,
           },
           {
-            nom: "鴨のパルマンティエ、ご飯",
+            nom: "鴨のパルマンティエ",
             prix: "13,90 €",
             image: parmentier,
           },
