@@ -17,6 +17,10 @@ export const LanguageSwitcher = () => {
       <option value="zh">🇨🇳 中文</option>
       <option value="ko">🇰🇷 한국어</option>
       <option value="ja">🇯🇵 日本語</option>
+      <option value="ru">🇷🇺 Русский</option>
+      <option value="pl">🇵🇱 Polski</option>
+      <option value="pt">🇵🇹 Português</option>
+      <option value="de">🇩🇪 Deutsch</option>
     </select>
   );
 };

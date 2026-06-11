@@ -1,0 +1,196 @@
+{
+  "phone": "Per Telefon",
+  "address": "Adresse",
+  "openingHours": "Öffnungszeiten",
+  "mondayToSaturday": "Montag bis Samstag",
+  "time": "11:45 – 22:00 Uhr",
+  "reservationDetails": {
+    "title": "ℹ️ Wichtige Informationen zu Reservierungen",
+    "items": [
+      "Reservierungen möglich <strong>telefonisch</strong> oder <strong>online über TheFork</strong> <em>(nur Abendservice)</em>.",
+      "Reservierungszeiten: <br/> <strong>11:45 – 12:30</strong> und <strong>18:00 – 19:30</strong>.",
+      "Außerhalb dieser Zeiten sind <strong>Besuche ohne Reservierung willkommen</strong>, wir versuchen immer, Ihnen einen Tisch zu finden.",
+      "Maximale Reservierungskapazität: <strong>8 Personen</strong>, je nach Verfügbarkeit.",
+      "<strong>Reservierungen werden nicht</strong> per E-Mail oder Mailbox akzeptiert.",
+      "Nur <strong>vollständige Gruppen</strong> werden platziert. Bitte warten Sie draußen und melden Sie sich, wenn Ihre gesamte Gruppe eingetroffen ist.",
+      "<strong>Tische werden nach der Reservierungszeit nicht mehr gehalten.</strong>",
+      "Die Platzvergabe erfolgt <strong>in Reihenfolge der Reservierungen.</strong> Danke für Ihr Verständnis."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "Die Speisekarte",
+    "entreesTitle": "Vorspeisen",
+    "platsTitle": "Hauptgänge",
+    "dessertsTitle": "Desserts",
+    "entrees": [
+      {
+        "nom": "Hartgekochtes Ei mit Mayonnaise",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "Lauch mit Vinaigrette",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "Gurke mit Knoblauchcreme",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Geriebene Karotten mit Vinaigrette",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Kalte Erbsen‑Minzsuppe",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Lachsrillettes",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Saucisson sec",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Petersilienschinken, Tartarsauce",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      {
+        "nom": "Gegrillter Chorizo",
+        "prix": "3,90 €",
+        "image": "chorizo.jpeg"
+      },
+      {
+        "nom": "Camembert‑Fondue & Honig",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Pochiertes Ei, Tomate & Chorizo",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "Zwiebelsuppe [geriebener Käse, nicht gratiniert]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Lachstatar mit Mango, Pommes & Salat",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (zubereitetes rohes Rinderhack), Pommes & Salat",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (zubereitetes rohes Rinderhack + Tomme + Paprika)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Pasta mit Lachs in Kräutersahne",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Boeuf bourguignon (geräucherter Speck), Pasta",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Hampe de bœuf, Chimichurri‑Sauce, Pommes",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Enten‑Parmentier",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Reine Andouillette vom Schwein, Senfsauce, Pommes",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Hacksteak, Tartarsauce, Pommes",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Brathähnchen mit Paprika, Püree",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Pasta alla Napoletana (geriebener Käse)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Sausage (knife cut), Maroilles‑Sauce, Püree",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Gegrillter Schinken, Balsamico‑Sauce, Pommes",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (Salat mit Tomme, Schinken, Ei, Gurken, Croutons)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Schokoladencreme im Glas",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      { "nom": "Apfel‑Crumble", "prix": "3,90 €", "image": "crumble.jpeg" },
+      {
+        "nom": "Zitronencreme, Bretonischer Sablé",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Käse (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Online reservieren",
+    "description": "Sie können auch direkt über TheFork buchen, indem Sie unten klicken:",
+    "linkText": "Bei TheFork reservieren"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Traditionelle französische Küche im Herzen von Paris",
+    "intro": {
+      "welcome": "Willkommen 👋",
+      "paragraph1": "Nur wenige Schritte von der Opéra Garnier entfernt, im Herzen des 2. Arrondissements von Paris, empfängt Sie <strong>Comme un Bouillon</strong> in einer warmen und authentischen Atmosphäre.",
+      "paragraph2": "Inspiriert von den berühmten Pariser Bouillons bietet unser Restaurant, eröffnet im <strong>Juni 2021</strong>, <strong>traditionelle französische Küche</strong>: großzügige, einfache und hausgemachte Gerichte zu erschwinglichen Preisen.",
+      "paragraph3": "Jeden Morgen erhalten wir <strong>frische Produkte</strong>, um Ihnen einen schmackhaften Teller schnell und mit einem Lächeln zu servieren.",
+      "paragraph4": "Und weil wir gerne alles selbst machen, wurde sogar die <strong>Dekoration</strong> von uns entworfen und von Hand gefertigt, um eine einzigartige Atmosphäre zu schaffen."
+    }
+  }
+}

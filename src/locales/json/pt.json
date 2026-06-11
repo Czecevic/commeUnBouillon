@@ -1,0 +1,192 @@
+{
+  "phone": "Por telefone",
+  "address": "Endereço",
+  "openingHours": "Horário de funcionamento",
+  "mondayToSaturday": "De segunda a sábado",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ Informações importantes sobre reservas",
+    "items": [
+      "Reservas possíveis <strong>por telefone</strong> ou <strong>online via TheFork</strong> <em>(apenas serviço noturno)</em>.",
+      "Horários de reserva: <br/> <strong>11:45 – 12:30</strong> e <strong>18:00 – 19:30</strong>.",
+      "Fora desses horários, <strong>bem-vindo sem reserva</strong>, faremos o possível para encontrar uma mesa.",
+      "Capacidade máxima de reserva: <strong>8 pessoas</strong>, sujeita à disponibilidade.",
+      "<strong>Não aceitamos reservas</strong> por e-mail ou caixa postal.",
+      "Apenas <strong>mesas completas</strong> serão acomodadas. Por favor, aguarde do lado de fora e apresente-se quando todo o grupo chegar.",
+      "<strong>As mesas não são mantidas após a hora da reserva.</strong>",
+      "A colocação é feita <strong>por ordem de reserva.</strong> Obrigado pela compreensão."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "O menu",
+    "entreesTitle": "Entradas",
+    "platsTitle": "Pratos principais",
+    "dessertsTitle": "Sobremesas",
+    "entrees": [
+      {
+        "nom": "Ovo cozido com maionese",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "Alho‑poró com vinagrete",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "Pepino com creme de alho",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Cenouras raladas com vinagrete",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Sopa fria de ervilha e hortelã",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Rillettes de salmão",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Salsichão curado",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Presunto com salsa, molho tártaro",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "Chouriço grelhado", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "Fondue de camembert & mel",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Ovo pochê, tomate & chouriço",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "Sopa de cebola francesa [queijo ralado, não gratinada]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Tártaro de salmão com manga, batatas fritas & salada",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (carne picada crua preparada), batatas fritas & salada",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (carne picada crua preparada + Tomme + pimentos)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Massa com salmão, creme de ervas",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Boeuf bourguignon (bacon fumado), massa",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Hampe de boeuf, molho chimichurri, batatas fritas",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Parmentier de pato",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Andouillette de porco, molho de mostarda, batatas fritas",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Bife moído, molho tartar, batatas fritas",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Frango assado ao paprika, purê",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Pasta napolitana (queijo ralado)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Salsicha cortada à faca, molho Maroilles AOP, purê",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Presunto grelhado, molho balsâmico, batatas fritas",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (salada com Tomme, presunto, ovo, pepinos, croutons)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Creme de chocolate no pote",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      { "nom": "Crumble de maçã", "prix": "3,90 €", "image": "crumble.jpeg" },
+      {
+        "nom": "Creme de limão, sablé breton",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Queijos (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Reserve online",
+    "description": "Você também pode reservar diretamente através do TheFork clicando abaixo:",
+    "linkText": "Reservar no TheFork"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Culinária francesa tradicional no coração de Paris",
+    "intro": {
+      "welcome": "Bem‑vindo 👋",
+      "paragraph1": "A poucos passos da Opéra Garnier, no coração do 2º arrondissement de Paris, <strong>Comme un Bouillon</strong> recebe‑o numa atmosfera calorosa e autêntica.",
+      "paragraph2": "Inspirado pelos famosos bouillons parisienses, o nosso restaurante, aberto desde <strong>junho de 2021</strong>, oferece <strong>cozinha francesa tradicional</strong>: pratos generosos, simples e caseiros a preços acessíveis.",
+      "paragraph3": "Todas as manhãs recebemos <strong>produtos frescos</strong> para garantir‑lhe um prato saboroso, servido rapidamente e com um sorriso.",
+      "paragraph4": "E porque gostamos de fazer tudo nós próprios, até a <strong>decoração</strong> foi desenhada e feita à mão para criar uma atmosfera única."
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "phone": "Przez telefon",
+  "address": "Adres",
+  "openingHours": "Godziny otwarcia",
+  "mondayToSaturday": "Od poniedziałku do soboty",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ Ważne informacje o rezerwacjach",
+    "items": [
+      "Rezerwacje możliwe <strong>przez telefon</strong> lub <strong>online za pośrednictwem TheFork</strong> <em>(tylko obsługa wieczorna)</em>.",
+      "Godziny rezerwacji: <br/> <strong>11:45 – 12:30</strong> i <strong>18:00 – 19:30</strong>.",
+      "Poza tymi godzinami <strong>zapraszamy bez rezerwacji</strong>, zawsze staramy się znaleźć stolik.",
+      "Maksymalna liczba osób przy rezerwacji: <strong>8 osób</strong>, w zależności od dostępności.",
+      "<strong>Nie przyjmujemy rezerwacji</strong> przez e-mail ani pocztę głosową.",
+      "Obsługujemy tylko <strong>kompletne stoliki</strong>. Prosimy poczekać na zewnątrz i zgłosić się, gdy cała grupa dotrze.",
+      "<strong>Stoliki nie są już trzymane po godzinie rezerwacji.</strong>",
+      "Przydział miejsc odbywa się <strong>wg kolejności rezerwacji.</strong> Dziękujemy za zrozumienie."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "Menu",
+    "entreesTitle": "Przystawki",
+    "platsTitle": "Dania główne",
+    "dessertsTitle": "Desery",
+    "entrees": [
+      {
+        "nom": "Jajko na twardo z majonezem",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      { "nom": "Por z winegretem", "prix": "3,60 €", "image": "poireau.jpeg" },
+      {
+        "nom": "Ogórek z kremem czosnkowym",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Starte marchewki z winegretem",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Zimna zupa z zielonego grochu z miętą",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Rillettes z łososia",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Saucisson sec",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Szynka z pietruszką, sos tatarski",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      {
+        "nom": "Grillowane chorizo",
+        "prix": "3,90 €",
+        "image": "chorizo.jpeg"
+      },
+      {
+        "nom": "Fondue z camemberta & miód",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Jajko poche, pomidor & chorizo",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "Zupa cebulowa [tarty ser, nie zapiekana]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Tatar z łososia z mango, frytki & sałatka",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (przygotowane surowe mięso mielone), frytki & sałata",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (przygotowane surowe mięso mielone + Tomme + papryka)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Makaron z łososiem i sosem z ziół",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Boeuf bourguignon (wędzony boczek), makaron",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Hampe de boeuf, sos chimichurri, frytki",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Parmentier z kaczki",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Andouillette wieprzowa, sos musztardowy, frytki",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Mielony stek, sos tartar, frytki",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Kurczak pieczony z papryką, puree",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Makaron napoletano (tarty ser)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Kiełbasa krojona nożem, sos Maroilles AOP, puree",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Szynka z grilla, sos balsamiczny, frytki",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (sałatka z Tomme, szynką, jajkiem, ogórkami, grzankami)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Krem czekoladowy w słoiku",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      {
+        "nom": "Crumble z jabłkami",
+        "prix": "3,90 €",
+        "image": "crumble.jpeg"
+      },
+      {
+        "nom": "Krem cytrynowy, sablé breton",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Sery (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Rezerwuj online",
+    "description": "Możesz również zarezerwować bezpośrednio przez TheFork, klikając poniżej:",
+    "linkText": "Rezerwuj na TheFork"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Tradycyjna kuchnia francuska w sercu Paryża",
+    "intro": {
+      "welcome": "Witamy 👋",
+      "paragraph1": "Kilka kroków od Opéra Garnier, w sercu 2. dzielnicy Paryża, <strong>Comme un Bouillon</strong> wita Cię w ciepłej i autentycznej atmosferze.",
+      "paragraph2": "Zainspirowani słynnymi paryskimi bouillonami, nasza restauracja, otwarta od <strong>czerwca 2021</strong>, serwuje <strong>tradycyjną kuchnię francuską</strong>: obfite, proste i domowe dania w przystępnych cenach.",
+      "paragraph3": "Codziennie rano otrzymujemy <strong>świeże produkty</strong>, aby zapewnić smaczne danie, podawane szybko i z uśmiechem.",
+      "paragraph4": "A ponieważ lubimy robić wszystko sami, nawet <strong>wystrój</strong> został zaprojektowany i wykonany ręcznie, tworząc wyjątkową atmosferę."
+    }
+  }
+}

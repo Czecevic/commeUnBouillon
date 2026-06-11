@@ -1,0 +1,200 @@
+{
+  "phone": "電話で",
+  "address": "住所",
+  "openingHours": "営業時間",
+  "mondayToSaturday": "月〜土",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ 予約に関する重要なお知らせ",
+    "items": [
+      "予約は<strong>電話</strong>または<strong>TheForkのオンライン</strong>で可能です <em>（ディナーのみ）</em>。",
+      "予約枠：<br/> <strong>11:45 – 12:30</strong> と <strong>18:00 – 19:30</strong>。",
+      "これ以外の時間は、<strong>予約なしでの来店歓迎</strong>です。可能な限りお席をご案内します。",
+      "予約可能な最大人数：<strong>8名</strong>（空席状況による）。",
+      "<strong>メールや留守番電話での予約は受け付けていません</strong>。",
+      "着席は<strong>グループ全員が揃っている場合のみ</strong>です。全員到着するまで外でお待ちください。",
+      "<strong>予約時間を過ぎると席は確保されません。</strong>",
+      "席の割り当ては<strong>予約順</strong>に行います。ご理解ください。"
+    ]
+  },
+  "menu": {
+    "selectionTitle": "メニュー",
+    "entreesTitle": "前菜",
+    "platsTitle": "メイン",
+    "dessertsTitle": "デザート",
+    "entrees": [
+      {
+        "nom": "茹で卵のマヨネーズ添え",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "リークのヴィネグレット",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "きゅうりのガーリッククリーム",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "人参のラペ（ヴィネグレット）",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "冷たい割れエンドウとミントのスープ",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "サーモンのリエット",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "サシソン・セック（ドライソーセージ）",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "パセリ入りハム、タルタルソース",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "グリルチョリソー", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "カマンベールのフォンデュ & はちみつ",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "ポーチドエッグ、トマト & チョリソー",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "オニオンスープ [チーズはかけるがグラタンはしない]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "マンゴー入りサーモンタルタル、フライドポテト & サラダ",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition（調理した生挽き牛肉）、フライドポテト & サラダ",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon（調理した生挽き牛肉 + Tomme + パプリカ）",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "サーモンのハーブクリームパスタ",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "ブフ・ブルギニョン（スモークベーコン）、パスタ",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "ハンペ（牛）、チミチュリソース、フライドポテト",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "ダック・パルマンティエ",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "アンドゥイエット（豚）、マスタードソース、フライドポテト",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "ハンバーグ（ミンチステーキ）、タルタルソース、フライドポテト",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "ローストチキン（パプリカ）、マッシュポテト",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "ナポリ風パスタ（チーズがけ）",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "手切りソーセージ、Maroilles AOPソース、マッシュポテト",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "グリルハム、バルサミコソース、フライドポテト",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne（トム、ハム、卵、きゅうり、クルトンのサラダ）",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "チョコレートクリームポット",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "クレームブリュレ", "prix": "4,10 €", "image": "caramel.jpeg" },
+      {
+        "nom": "イル・フロッタント（浮島）",
+        "prix": "4,30 €",
+        "image": "ileFlo.jpeg"
+      },
+      {
+        "nom": "アップルクランブル",
+        "prix": "3,90 €",
+        "image": "crumble.jpeg"
+      },
+      {
+        "nom": "レモンクリーム、ブルターニュのサブレ",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "チーズ（AOP Brie de Meaux & IGP Tomme de Savoie）",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "オンライン予約",
+    "description": "下のボタンから TheFork を通じて直接予約することもできます：",
+    "linkText": "TheForkで予約する"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "パリ中心部の伝統的なフランス料理",
+    "intro": {
+      "welcome": "ようこそ 👋",
+      "paragraph1": "オペラ・ガルニエから数歩、パリ2区の中心にある <strong>Comme un Bouillon</strong> は、温かく本格的な雰囲気で皆様をお迎えします。",
+      "paragraph2": "有名なパリのブイヨンに触発された当店は、<strong>2021年6月</strong>より営業し、<strong>伝統的なフランス料理</strong> を手頃な価格で提供しています。",
+      "paragraph3": "毎朝 <strong>新鮮な食材</strong> を受け取り、美味しい一皿を素早く笑顔でお出しします。",
+      "paragraph4": "すべて自分たちで作るのが好きなので、<strong>内装</strong>も手作りでデザインし、唯一無二の居心地の良い空間を作りました。"
+    }
+  }
+}

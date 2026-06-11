@@ -1,0 +1,196 @@
+{
+  "phone": "Par téléphone",
+  "address": "Adresse",
+  "openingHours": "Horaires",
+  "mondayToSaturday": "Du lundi au samedi",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ Informations importantes concernant les réservations",
+    "items": [
+      "Réservation possible <strong>par téléphone</strong> ou <strong>en ligne via TheFork</strong> <em>(service du soir uniquement)</em>.",
+      "Créneaux de réservation : <br/> <strong>11h45 à 12h30</strong> et <strong>18h00 à 19h30</strong>.",
+      "En dehors de ces horaires, <strong>présentez-vous sans réservation</strong>, nous faisons toujours notre possible pour vous trouver une table.",
+      "Capacité maximale de réservation : <strong>8 personnes</strong>, sous réserve des places disponibles.",
+      "<strong>Aucune réservation</strong> n'est prise par mail ou sur la messagerie du téléphone.",
+      "Seules les <strong>tables au complet</strong> sont installées. Merci de patienter à l'extérieur et de vous présenter une fois que tout le groupe est arrivé.",
+      "<strong>Les tables ne sont plus gardées après l'heure de réservation.</strong>",
+      "Le placement est effectué <strong>en fonction de l'ancienneté des réservations.</strong> Merci de votre compréhension."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "Menu",
+    "entreesTitle": "Entrées",
+    "platsTitle": "Plats",
+    "dessertsTitle": "Desserts",
+    "entrees": [
+      {
+        "nom": "Oeuf dur mayonnaise",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "Poireaux vinaigrette",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "Concombres crème à l'ail",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Carottes râpées vinaigrette",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Soupe froide pois cassés menthe",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Rillettes de saumon",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Saucisson sec",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Jambon persillé [de notre charcutier], sauce tartare",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "Chorizo grillé", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "Fondu de camembert & miel",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Œuf poché, sauce tomate & chorizo",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "Soupe à l'oignon [fromage rapé, non gratinée]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Tartare de saumon à la mangue, frites & salade",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le tradition (boeuf haché cru préparé), frites & salade",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (boeuf haché cru préparé + IGP tomme de Savoie + poivrons)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Pâtes au saumon, crème aux herbes",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Boeuf bourguignon (lardon fumés), pâtes",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Hampe de bœuf, sauce chimichurri, frites",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Parmentier de canard",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Andouillette pur porc, sauce moutarde, frites",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Steak haché, sauce tartare, frites",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Poulet rôti au paprika, purée",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Pâtes à la Napolitaine (fromage rapé)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Saucisse au couteau, sauce Maroilles AOP, purée",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Jambon grillé, sauce Balsamique, frites",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (salade, IGP Tomme de Savoie, jambon persillé, œuf dur, concombres, croûtons)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Pot de crème au chocolat",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      {
+        "nom": "Crumble aux pommes",
+        "prix": "3,90 €",
+        "image": "crumble.jpeg"
+      },
+      {
+        "nom": "crème citron, sablé breton",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Fromage (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Réserver en ligne",
+    "description": "Vous pouvez également réserver directement via TheFork en cliquant ci-dessous :",
+    "linkText": "Réserver sur TheFork"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Cuisine française traditionnelle au cœur de Paris",
+    "intro": {
+      "welcome": "Bienvenue chez nous 👋",
+      "paragraph1": "À quelques pas de l'Opéra Garnier, au cœur du 2ᵉ arrondissement de Paris, <strong>Comme un Bouillon</strong> vous accueille dans une ambiance chaleureuse et authentique.",
+      "paragraph2": "Inspiré des célèbres bouillons parisiens, notre restaurant, ouvert depuis <strong>juin 2021</strong>, propose une <strong>cuisine française traditionnelle</strong> : des plats généreux, simples et faits maison à prix raisonnable.",
+      "paragraph3": "Chaque matin, nous réceptionnons des <strong>produits frais</strong> pour vous garantir une assiette savoureuse, servie rapidement et avec le sourire.",
+      "paragraph4": "Et comme nous aimons tout faire nous-mêmes, même la <strong>décoration</strong> a été pensée et réalisée à la main pour créer une atmosphère unique."
+    }
+  }
+}

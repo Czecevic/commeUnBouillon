@@ -1,0 +1,192 @@
+{
+  "phone": "By phone",
+  "address": "Address",
+  "openingHours": "Opening hours",
+  "mondayToSaturday": "Monday to Saturday",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ Important reservation information",
+    "items": [
+      "Reservations possible <strong>by phone</strong> or <strong>online via TheFork</strong> <em>(evening service only)</em>.",
+      "Reservation slots: <br/> <strong>11:45 – 12:30</strong> and <strong>18:00 – 19:30</strong>.",
+      "Outside these times, <strong>walk-ins are welcome</strong>, we always try to find you a table.",
+      "Maximum reservation capacity: <strong>8 people</strong>, subject to availability.",
+      "<strong>No reservations</strong> are taken by email or voicemail.",
+      "Only <strong>complete tables</strong> will be seated. Please wait outside and present yourselves when your whole party has arrived.",
+      "<strong>Tables are no longer held after the reservation time.</strong>",
+      "Seating is done <strong>in order of reservations.</strong> Thank you for your understanding."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "Menu",
+    "entreesTitle": "Starters",
+    "platsTitle": "Mains",
+    "dessertsTitle": "Desserts",
+    "entrees": [
+      {
+        "nom": "Hard‑boiled egg with mayonnaise",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "Leeks with vinaigrette",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "Cucumber with garlic cream",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Grated carrots with vinaigrette",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Cold split pea & mint soup",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Salmon rillettes",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Dry cured sausage",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Parsley ham [from our charcutier], tartar sauce",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "Grilled chorizo", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "Camembert fondue & honey",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Poached egg, tomato & chorizo",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "French onion soup [grated cheese, not gratinated]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Salmon tartare with mango, fries & salad",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (prepared raw minced beef), fries & salad",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (prepared raw minced beef + Tomme de Savoie + peppers)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Pasta with salmon, herb cream",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Beef bourguignon (smoked lardons), pasta",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Beef flap steak, chimichurri sauce, fries",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Duck parmentier",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Pork andouillette, mustard sauce, fries",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Minced steak, tartar sauce, fries",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Roast chicken with paprika, mashed potatoes",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Neapolitan pasta (grated cheese)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Knife-cut sausage, Maroilles AOP sauce, mashed potatoes",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Grilled ham, balsamic sauce, fries",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (salad with Tomme de Savoie, parsley ham, egg, cucumbers, croutons)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Chocolate cream pot",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      { "nom": "Apple crumble", "prix": "3,90 €", "image": "crumble.jpeg" },
+      {
+        "nom": "Lemon cream, Breton shortbread",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Cheese (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Reserve online",
+    "description": "You can also book directly via TheFork by clicking below:",
+    "linkText": "Book on TheFork"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Traditional French cuisine in the heart of Paris",
+    "intro": {
+      "welcome": "Welcome 👋",
+      "paragraph1": "A few steps from the Opéra Garnier, in the heart of Paris's 2nd arrondissement, <strong>Comme un Bouillon</strong> welcomes you in a warm and authentic atmosphere.",
+      "paragraph2": "Inspired by famous Parisian bouillons, our restaurant, open since <strong>June 2021</strong>, offers <strong>traditional French cuisine</strong>: generous, simple and homemade dishes at affordable prices.",
+      "paragraph3": "Every morning we receive <strong>fresh produce</strong> to guarantee you a tasty plate, served quickly and with a smile.",
+      "paragraph4": "And because we like to do things ourselves, even the <strong>decor</strong> was designed and made by hand to create a unique atmosphere."
+    }
+  }
+}

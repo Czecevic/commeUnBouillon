@@ -1,0 +1,180 @@
+{
+  "phone": "电话预订",
+  "address": "地址",
+  "openingHours": "营业时间",
+  "mondayToSaturday": "周一至周六",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ 预订重要信息",
+    "items": [
+      "可通过 <strong>电话</strong> 或 <strong>TheFork 在线</strong> 预约 <em>（仅晚餐服务）</em>。",
+      "预约时间段：<br/> <strong>11:45 – 12:30</strong> 和 <strong>18:00 – 19:30</strong>。",
+      "在此时间之外，<strong>欢迎直接到店</strong>，我们会尽力为您安排座位。",
+      "最大预约人数：<strong>8 人</strong>，以实际可用席位为准。",
+      "<strong>不接受</strong>通过邮件或语音信箱的预约。",
+      "仅接待<strong>整桌到齐</strong>的客人。请在外等待，全部到齐后再入内就座。",
+      "<strong>预约时间过后将不再保留桌位。</strong>",
+      "座位安排将根据 <strong>预约先后顺序</strong> 进行。感谢理解。"
+    ]
+  },
+  "menu": {
+    "selectionTitle": "菜单",
+    "entreesTitle": "前菜",
+    "platsTitle": "主菜",
+    "dessertsTitle": "甜点",
+    "entrees": [
+      { "nom": "煮蛋配蛋黄酱", "prix": "3,10 €", "image": "oeufMayo.jpeg" },
+      { "nom": "韭葱佐油醋汁", "prix": "3,60 €", "image": "poireau.jpeg" },
+      {
+        "nom": "黄瓜配蒜味奶油",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      { "nom": "胡萝卜丝配油醋汁", "prix": "2,90 €", "image": "carotte.jpeg" },
+      { "nom": "冷豌豆薄荷汤", "prix": "4,80 €", "image": "soupe_froide.jpeg" },
+      {
+        "nom": "三文鱼酱 (rillettes)",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      { "nom": "风干香肠", "prix": "3,70 €", "image": "saucisson_sec.jpeg" },
+      {
+        "nom": "香草火腿，塔塔酱",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      {
+        "nom": "烤辣味香肠（Chorizo）",
+        "prix": "3,90 €",
+        "image": "chorizo.jpeg"
+      },
+      {
+        "nom": "卡芒贝尔芝士火锅 & 蜂蜜",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "水波蛋，番茄 & 辣肠",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "法式洋葱汤 [刨奶酪，非焗烤]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "芒果三文鱼塔塔，薯条 & 沙拉",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition（调味生牛肉），薯条 & 沙拉",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon（调味生牛肉 + Tomme + 甜椒）",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "奶油香草三文鱼意面",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "勃艮第牛肉（熏培根），意面",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "牛侧腹（Hampe），奇妙香草酱，薯条",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "鸭肉帕尔曼蒂耶",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "猪肉安杜耶特，芥末酱，薯条",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "碎牛排，塔塔酱，薯条",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "烤鸡配辣椒粉，土豆泥",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "那不勒斯式意面（刨奶酪）",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "手切香肠，Maroilles AOP 酱，土豆泥",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "烤火腿，香醋酱，薯条",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne（配 Tomme、火腿、鸡蛋、黄瓜、面包丁 的沙拉）",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      { "nom": "巧克力奶油罐", "prix": "3,90 €", "image": "chocolat.jpeg" },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      {
+        "nom": "浮岛（Île flottante）",
+        "prix": "4,30 €",
+        "image": "ileFlo.jpeg"
+      },
+      {
+        "nom": "苹果碎脆（Crumble）",
+        "prix": "3,90 €",
+        "image": "crumble.jpeg"
+      },
+      {
+        "nom": "柠檬奶油，布列塔尼脆饼",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "奶酪（AOP Brie de Meaux & IGP Tomme de Savoie）",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "在线预订",
+    "description": "您也可以点击下面通过 TheFork 直接预订：",
+    "linkText": "在 TheFork 上预订"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "巴黎心脏地带的传统法式料理",
+    "intro": {
+      "welcome": "欢迎 👋",
+      "paragraph1": "距歌剧院（Opéra Garnier）仅几步之遥，位于巴黎第二区中心，<strong>Comme un Bouillon</strong>在温暖且地道的氛围中欢迎您。",
+      "paragraph2": "灵感来自著名的巴黎 bouillons，本餐厅自 <strong>2021 年 6 月</strong> 开业，提供 <strong>传统法式料理</strong>：份量充足、简单、家常且价格亲民的菜肴。",
+      "paragraph3": "我们每天早上都接收 <strong>新鲜食材</strong>，保证为您提供美味的菜品，快速上菜并带着微笑。",
+      "paragraph4": "因为我们喜欢亲手做每件事，连 <strong>装潢</strong> 也由我们设计并手工制作，营造独特且温馨的氛围。"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "phone": "По телефону",
+  "address": "Адрес",
+  "openingHours": "Часы работы",
+  "mondayToSaturday": "С понедельника по субботу",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ Важная информация о бронировании",
+    "items": [
+      "Бронирование возможно <strong>по телефону</strong> или <strong>онлайн через TheFork</strong> <em>(только вечернее обслуживание)</em>.",
+      "Временные интервалы бронирования: <br/> <strong>11:45 – 12:30</strong> и <strong>18:00 – 19:30</strong>.",
+      "Вне этого времени <strong>добро пожаловать без бронирования</strong>, мы всегда постараемся найти вам стол.",
+      "Максимальная вместимость: <strong>8 человек</strong>, в зависимости от наличия мест.",
+      "<strong>Бронирования не принимаются</strong> по электронной почте или голосовой почте.",
+      "Обслуживаются только <strong>полные столы</strong>. Пожалуйста, дождитесь снаружи и подойдите, когда придёт вся ваша группа.",
+      "<strong>Столы больше не резервируются после времени брони.</strong>",
+      "Распределение мест происходит <strong>в порядке бронирований.</strong> Спасибо за понимание."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "Меню",
+    "entreesTitle": "Закуски",
+    "platsTitle": "Основные блюда",
+    "dessertsTitle": "Десерты",
+    "entrees": [
+      {
+        "nom": "Яйцо вкрутую с майонезом",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "Порей с винегретом",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "Огурцы с чесночным кремом",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "Тёртая морковь с винегретом",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "Охлаждённый суп из колотого гороха с мятой",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "Рийет из лосося",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "Сушёная колбаса",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "Ветчина с петрушкой, тартар соус",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "Жареный чоризо", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "Фондю из камамбера & мёд",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "Яйцо пашот, томат & чоризо",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "Луковый суп [тёртый сыр, не запечённый]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "Тартар из лосося с манго, фри & салат",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (подготовленный сырой фарш), фри & салат",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (подготовленный сырой фарш + Tomme + перцы)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "Паста с лососем и кремом из трав",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "Беф бургиньон (копчёный бекон), паста",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "Hampe de bœuf, чимичурри соус, фри",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "Парментие из утки",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "Андуйеттe свиная, горчичный соус, фри",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "Рубленый стейк, тартар соус, фри",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "Жареная курица с паприкой, пюре",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "Паста по‑неаполитански (тёртый сыр)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "Колбаса нарезанная ножом, соус Maroilles AOP, пюре",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "Жареная ветчина, бальзамический соус, фри",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (салат с Tomme, ветчиной, яйцом, огурцами, крутонами)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      {
+        "nom": "Порция шоколадного крема",
+        "prix": "3,90 €",
+        "image": "chocolat.jpeg"
+      },
+      { "nom": "Crème brûlée", "prix": "4,10 €", "image": "caramel.jpeg" },
+      { "nom": "Île flottante", "prix": "4,30 €", "image": "ileFlo.jpeg" },
+      { "nom": "Яблочный крамбл", "prix": "3,90 €", "image": "crumble.jpeg" },
+      {
+        "nom": "Лимонный крем, Breton sablé",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "Сыры (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "Забронировать онлайн",
+    "description": "Вы также можете забронировать напрямую через TheFork, нажав ниже:",
+    "linkText": "Забронировать на TheFork"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "Традиционная французская кухня в сердце Парижа",
+    "intro": {
+      "welcome": "Добро пожаловать 👋",
+      "paragraph1": "В нескольких шагах от Оперы Гарнье, в сердце 2-го округа Парижа, <strong>Comme un Bouillon</strong> встречает вас в тёплой и аутентичной атмосфере.",
+      "paragraph2": "Вдохновлённый знаменитыми парижскими буйонами, наш ресторан, открытый в <strong>июне 2021</strong>, предлагает <strong>традиционную французскую кухню</strong>: щедрые, простые и домашние блюда по доступным ценам.",
+      "paragraph3": "Каждое утро мы получаем <strong>свежие продукты</strong>, чтобы гарантировать вкусную тарелку, сервированную быстро и с улыбкой.",
+      "paragraph4": "И поскольку нам нравится всё делать своими руками, даже <strong>декор</strong> был разработан и выполнен вручную, чтобы создать уникальную атмосферу."
+    }
+  }
+}

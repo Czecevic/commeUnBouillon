@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import { imageMap } from "../../locales/imageMap";
 export const MenuSection = ({ category }: { category: string }) => {
   const { t } = useTranslation();
 
@@ -9,19 +9,29 @@ export const MenuSection = ({ category }: { category: string }) => {
     prix: string;
     image: string;
   }[];
-  console.log(plats);
 
   return (
     <div className="menu-section">
       <ul>
         {plats.map((plat, index) => (
           <li key={index} className="menu-item">
-            <img
-              loading="lazy"
-              src={plat.image}
-              alt={plat.nom}
-              className="menu-item-image"
-            />
+            {(() => {
+              const src = plat.image ? imageMap[plat.image] : undefined;
+              if (!src)
+                console.warn("Image introuvable pour", plat.image, plat);
+              return src ? (
+                <img
+                  loading="lazy"
+                  src={src}
+                  alt={plat.nom ?? "menu item"}
+                  className="menu-item-image"
+                />
+              ) : (
+                <div className="menu-item-image no-image" aria-hidden>
+                  Image manquante
+                </div>
+              );
+            })()}
             <div className="menu-item-details">
               <h3>{plat.nom}</h3>
               <p>{plat.prix}</p>

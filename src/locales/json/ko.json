@@ -1,0 +1,192 @@
+{
+  "phone": "전화로",
+  "address": "주소",
+  "openingHours": "영업시간",
+  "mondayToSaturday": "월요일부터 토요일",
+  "time": "11:45 – 22:00",
+  "reservationDetails": {
+    "title": "ℹ️ 예약 관련 중요 안내",
+    "items": [
+      "예약은 <strong>전화</strong> 또는 <strong>TheFork 온라인</strong>을 통해 가능합니다 <em>(저녁 서비스 전용)</em>.",
+      "예약 시간대: <br/> <strong>11:45 – 12:30</strong> 및 <strong>18:00 – 19:30</strong>.",
+      "이 시간 외에는 <strong>예약 없이 방문 가능</strong>하며, 가능한 테이블을 찾아드리겠습니다.",
+      "예약 최대 인원: <strong>8인</strong>, 좌석 상황에 따라 다릅니다.",
+      "<strong>이메일이나 음성사서함을 통한 예약은 받지 않습니다</strong>.",
+      "<strong>전체 인원 도착 시에만 착석</strong> 가능합니다. 모두 도착할 때까지 밖에서 기다려 주세요.",
+      "<strong>예약 시간 이후에는 테이블을 더 이상 유지하지 않습니다.</strong>",
+      "좌석 배치는 <strong>예약 순서대로</strong> 진행됩니다. 이해해 주셔서 감사합니다."
+    ]
+  },
+  "menu": {
+    "selectionTitle": "메뉴",
+    "entreesTitle": "전채",
+    "platsTitle": "메인",
+    "dessertsTitle": "디저트",
+    "entrees": [
+      {
+        "nom": "마요네즈를 곁들인 삶은 달걀",
+        "prix": "3,10 €",
+        "image": "oeufMayo.jpeg"
+      },
+      {
+        "nom": "대파(리크) 비네그레트",
+        "prix": "3,60 €",
+        "image": "poireau.jpeg"
+      },
+      {
+        "nom": "오이와 갈릭 크림",
+        "prix": "3,70 €",
+        "image": "concombres_creme.jpeg"
+      },
+      {
+        "nom": "당근 라페(비네그레트)",
+        "prix": "2,90 €",
+        "image": "carotte.jpeg"
+      },
+      {
+        "nom": "차가운 완두콩 민트 수프",
+        "prix": "4,80 €",
+        "image": "soupe_froide.jpeg"
+      },
+      {
+        "nom": "연어 리예트",
+        "prix": "4,60 €",
+        "image": "mousseFoieVolaille.jpeg"
+      },
+      {
+        "nom": "건조 소시지 (Saucisson sec)",
+        "prix": "3,70 €",
+        "image": "saucisson_sec.jpeg"
+      },
+      {
+        "nom": "파슬리 햄, 타르타르 소스",
+        "prix": "4,30 €",
+        "image": "jambon_persille.jpeg"
+      },
+      { "nom": "그릴 초리조", "prix": "3,90 €", "image": "chorizo.jpeg" },
+      {
+        "nom": "카망베르 퐁듀 & 꿀",
+        "prix": "4,90 €",
+        "image": "fondue_camembert.jpeg"
+      },
+      {
+        "nom": "포치드 에그, 토마토 & 초리조",
+        "prix": "4,90 €",
+        "image": "oeuf_poche_chorizo.jpeg"
+      },
+      {
+        "nom": "프렌치 어니언 수프 [치즈 토핑, 그라탱 아님]",
+        "prix": "5,10 €",
+        "image": "soupe_a_loignon.jpeg"
+      }
+    ],
+    "plats": [
+      {
+        "nom": "망고 연어 타르타르, 감자튀김 & 샐러드",
+        "prix": "13,40 €",
+        "image": "tartare_saumon_mangue.jpeg"
+      },
+      {
+        "nom": "Le Tradition (조리된 생다진 소고기), 감자튀김 & 샐러드",
+        "prix": "11,60 €",
+        "image": "tradition.jpeg"
+      },
+      {
+        "nom": "Le Bouillon (조리된 생다진 소고기 + Tomme + 피망)",
+        "prix": "12,10 €",
+        "image": "bouillon.jpeg"
+      },
+      {
+        "nom": "허브 크림 연어 파스타",
+        "prix": "12,40 €",
+        "image": "saumon_creme_herbe.jpeg"
+      },
+      {
+        "nom": "비프 부르고뉴 (훈제 베이컨), 파스타",
+        "prix": "12,40 €",
+        "image": "boeuf_bourg.jpeg"
+      },
+      {
+        "nom": "햄프(소고기), 치미추리 소스, 감자튀김",
+        "prix": "11,90 €",
+        "image": "hampe.jpeg"
+      },
+      {
+        "nom": "오리 파르망티에",
+        "prix": "13,90 €",
+        "image": "parmentier.jpeg"
+      },
+      {
+        "nom": "돼지고기 안뒤예트, 머스타드 소스, 감자튀김",
+        "prix": "11,90 €",
+        "image": "andouille.jpeg"
+      },
+      {
+        "nom": "다진 스테이크, 타르타르 소스, 감자튀김",
+        "prix": "10,90 €",
+        "image": "steak_frites.jpeg"
+      },
+      {
+        "nom": "로스트 치킨 파프리카, 매쉬 포테이토",
+        "prix": "12,90 €",
+        "image": "poulet_roti_paprika.jpeg"
+      },
+      {
+        "nom": "나폴리탄 파스타 (강판 치즈)",
+        "prix": "10,90 €",
+        "image": "pate_napo.jpeg"
+      },
+      {
+        "nom": "칼로 썬 소시지, Maroilles AOP 소스, 매쉬",
+        "prix": "10,90 €",
+        "image": "saucisse.jpeg"
+      },
+      {
+        "nom": "그릴 햄, 발사믹 소스, 감자튀김",
+        "prix": "10,90 €",
+        "image": "jambon_grillé.jpeg"
+      },
+      {
+        "nom": "Comme une Parisienne (Tomme, 햄, 계란, 오이, 크루통 포함 샐러드)",
+        "prix": "12,40 €",
+        "image": "parisienne.jpeg"
+      }
+    ],
+    "desserts": [
+      { "nom": "초콜릿 크림 포트", "prix": "3,90 €", "image": "chocolat.jpeg" },
+      { "nom": "크렘 브륄레", "prix": "4,10 €", "image": "caramel.jpeg" },
+      {
+        "nom": "일 플로탕트 (Île flottante)",
+        "prix": "4,30 €",
+        "image": "ileFlo.jpeg"
+      },
+      { "nom": "애플 크럼블", "prix": "3,90 €", "image": "crumble.jpeg" },
+      {
+        "nom": "레몬 크림, 브르타뉴 사블레",
+        "prix": "4,90 €",
+        "image": "creme_citron.jpeg"
+      },
+      {
+        "nom": "치즈 (AOP Brie de Meaux & IGP Tomme de Savoie)",
+        "prix": "4,90 €",
+        "image": "fromage.jpeg"
+      }
+    ]
+  },
+  "onlineReservation": {
+    "title": "온라인 예약",
+    "description": "아래를 클릭하여 TheFork를 통해 직접 예약할 수도 있습니다:",
+    "linkText": "TheFork에서 예약"
+  },
+  "home": {
+    "title": "Comme un Bouillon",
+    "subtitle": "파리 중심부의 전통 프랑스 요리",
+    "intro": {
+      "welcome": "환영합니다 👋",
+      "paragraph1": "오페라 가르니에에서 몇 걸음 떨어진 파리 2구 중심부에 위치한 <strong>Comme un Bouillon</strong>은 따뜻하고 정통한 분위기로 여러분을 맞이합니다。",
+      "paragraph2": "유명한 파리 부용에서 영감을 받은 저희 레스토랑은 <strong>2021년 6월</strong> 오픈 이후 <strong>전통 프랑스 요리</strong> 을 제공합니다: 넉넉하고 소박한 가정식 요리를 합리적인 가격에。",
+      "paragraph3": "매일 아침 <strong>신선한 재료</strong>를 받아 신속하고 미소와 함께 맛있는 접시를 제공해드립니다。",
+      "paragraph4": "직접 만드는 것을 좋아하기 때문에 <strong>인테리어</strong> 역시 직접 디자인하고 수작업으로 제작하여 독특하고 아늑한 분위기를 만들었습니다。"
+    }
+  }
+}
