@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (prepared raw minced beef + Tomme de Savoie + peppers)",
+        "nom": "Le Bouillon (prepared raw minced beef + Tomme de Savoie + peppers), fries & salad",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -103,7 +103,7 @@
       },
       {
         "nom": "Beef bourguignon (smoked lardons), pasta",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Pork andouillette, mustard sauce, fries",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Minced steak, tartar sauce, fries",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "Neapolitan pasta (grated cheese)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

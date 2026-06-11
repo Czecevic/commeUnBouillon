@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (подготовленный сырой фарш + Tomme + перцы)",
+        "nom": "Le Bouillon (подготовленный сырой фарш + Tomme + перцы), фри & салат",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -103,7 +103,7 @@
       },
       {
         "nom": "Беф бургиньон (копчёный бекон), паста",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Андуйеттe свиная, горчичный соус, фри",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Рубленый стейк, тартар соус, фри",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "Паста по‑неаполитански (тёртый сыр)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

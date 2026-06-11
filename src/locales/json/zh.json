@@ -76,7 +76,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon（调味生牛肉 + Tomme + 甜椒）",
+        "nom": "Le Bouillon（调味生牛肉 + Tomme + 甜椒），薯条 & 沙拉",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -87,7 +87,7 @@
       },
       {
         "nom": "勃艮第牛肉（熏培根），意面",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -101,11 +101,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "猪肉安杜耶特，芥末酱，薯条",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "碎牛排，塔塔酱，薯条",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -117,7 +112,7 @@
       },
       {
         "nom": "那不勒斯式意面（刨奶酪）",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

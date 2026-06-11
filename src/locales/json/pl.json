@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (przygotowane surowe mięso mielone + Tomme + papryka)",
+        "nom": "Le Bouillon (przygotowane surowe mięso mielone + Tomme + papryka), frytki & sałat",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -103,7 +103,7 @@
       },
       {
         "nom": "Boeuf bourguignon (wędzony boczek), makaron",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Andouillette wieprzowa, sos musztardowy, frytki",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Mielony stek, sos tartar, frytki",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "Makaron napoletano (tarty ser)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

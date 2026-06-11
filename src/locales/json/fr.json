@@ -65,7 +65,7 @@
       },
       { "nom": "Chorizo grillé", "prix": "3,90 €", "image": "chorizo.jpeg" },
       {
-        "nom": "Fondu de camembert & miel",
+        "nom": "Fondue de camembert & miel",
         "prix": "4,90 €",
         "image": "fondue_camembert.jpeg"
       },
@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (boeuf haché cru préparé + IGP tomme de Savoie + poivrons)",
+        "nom": "Le Bouillon (boeuf haché cru préparé + IGP tomme de Savoie + poivrons), frites & salade",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -102,8 +102,8 @@
         "image": "saumon_creme_herbe.jpeg"
       },
       {
-        "nom": "Boeuf bourguignon (lardon fumés), pâtes",
-        "prix": "12,40 €",
+        "nom": "Boeuf bourguignon (lardons fumés), pâtes",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Andouillette pur porc, sauce moutarde, frites",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Steak haché, sauce tartare, frites",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "Pâtes à la Napolitaine (fromage rapé)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

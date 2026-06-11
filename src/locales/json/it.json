@@ -96,7 +96,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (carne tritata cruda + Tomme + peperoni)",
+        "nom": "Le Bouillon (carne tritata cruda + Tomme + peperoni), patatine & insalata",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -107,7 +107,7 @@
       },
       {
         "nom": "Boeuf bourguignon (lard affumicato), pasta",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -121,11 +121,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Andouillette di maiale, salsa alla senape, patatine",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Hamburger (steak tritato), salsa tartara, patatine",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -137,7 +132,7 @@
       },
       {
         "nom": "Pasta alla napoletana (formaggio grattugiato)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

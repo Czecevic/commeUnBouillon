@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon（調理した生挽き牛肉 + Tomme + パプリカ）",
+        "nom": "Le Bouillon（調理した生挽き牛肉 + Tomme + パプリカ）、フライドポテト & サラダ",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -103,7 +103,7 @@
       },
       {
         "nom": "ブフ・ブルギニョン（スモークベーコン）、パスタ",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "アンドゥイエット（豚）、マスタードソース、フライドポテト",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "ハンバーグ（ミンチステーキ）、タルタルソース、フライドポテト",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "ナポリ風パスタ（チーズがけ）",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {

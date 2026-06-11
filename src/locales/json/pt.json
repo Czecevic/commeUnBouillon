@@ -92,7 +92,7 @@
         "image": "tradition.jpeg"
       },
       {
-        "nom": "Le Bouillon (carne picada crua preparada + Tomme + pimentos)",
+        "nom": "Le Bouillon (carne picada crua preparada + Tomme + pimentos), batatas fritas & salada",
         "prix": "12,10 €",
         "image": "bouillon.jpeg"
       },
@@ -103,7 +103,7 @@
       },
       {
         "nom": "Boeuf bourguignon (bacon fumado), massa",
-        "prix": "12,40 €",
+        "prix": "13,10 €",
         "image": "boeuf_bourg.jpeg"
       },
       {
@@ -117,11 +117,6 @@
         "image": "parmentier.jpeg"
       },
       {
-        "nom": "Andouillette de porco, molho de mostarda, batatas fritas",
-        "prix": "11,90 €",
-        "image": "andouille.jpeg"
-      },
-      {
         "nom": "Bife moído, molho tartar, batatas fritas",
         "prix": "10,90 €",
         "image": "steak_frites.jpeg"
@@ -133,7 +128,7 @@
       },
       {
         "nom": "Pasta napolitana (queijo ralado)",
-        "prix": "10,90 €",
+        "prix": "9,90 €",
         "image": "pate_napo.jpeg"
       },
       {
