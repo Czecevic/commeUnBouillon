@@ -32,10 +32,12 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   margin-bottom: 1.5rem;
   width: 30%; /* Largeur fixe pour les colonnes */
-  height: 350px; /* Hauteur fixe pour uniformiser les plats */
+  height: 500px; /* Hauteur fixe pour uniformiser les plats */
 }
 
 .menu-item:hover {
@@ -89,7 +91,7 @@
 @media (max-width: 1024px) {
   .menu-item {
     width: 45%; /* Deux colonnes pour les tablettes */
-    height: 350px; /* Hauteur fixe maintenue */
+    height: 450px; /* Hauteur fixe maintenue */
   }
 }
 
